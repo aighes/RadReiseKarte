@@ -24,6 +24,7 @@ echo "Map created with mkgmap-r$version" >> ./maps/$name/$famid"0000_license.txt
 
 rm $output/upload/$name.7z
 rm $output/upload/MS_$name.7z
+rm ./maps/$name/ovm_*.img
 
 7za a -t7z $output/upload/$name.7z ./maps/$name/gmapsupp.img ./resources/license.txt ./resources/legende_de.png -mx9
 
