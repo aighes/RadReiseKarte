@@ -9,7 +9,7 @@ rm ./maps/$name/*.tmp
 
 echo $famid>>mkgmap_error.log
 
-java -Xmx10000M -XX:+UseCompressedOops -jar ./bin/mkgmap-overview2-r2591.jar --read-config=./resources/style_rrk_ov/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name $famid*.o5m ./resources/rrk_typ.txt 2>> mkgmap_error.log
+java -Xmx10000M -XX:+UseCompressedOops -jar ./bin/mkgmap-overview2-r2592.jar --read-config=./resources/style_rrk_ov/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name $famid*.o5m ./resources/rrk_typ.txt 2>> mkgmap_error.log
 
 echo $TIME compressing $name >> log.log
 echo $TIME compressing $name
