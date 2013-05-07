@@ -22,7 +22,7 @@ highway=primary_link { set highway=primary }
 highway=secondary_link { set highway=secondary }
 highway=tertiary_link { set highway=tertiary }
 
-rrk_boundary=yes [0x10017 continue level 7]
+rrk_boundary=yes [0x10017 continue level 8]
 
 highway=path & ( surface=cobblestone | surface=cobblestone:flattened ) { set highway=cobblestone; delete surface; delete tracktype}
 surface=* & tracktype=* { delete tracktype }

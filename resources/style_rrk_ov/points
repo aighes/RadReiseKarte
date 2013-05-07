@@ -15,8 +15,27 @@ aeroway=aerodrome & mkgmap:line2poi!=true [0x5905 level 0]
 
 ( highway=ford | ford=yes ) & ( mkgmap:line2poi!=true | mkgmap:line2poitype=mid ) [0x1607 level 2]
 
-place=city & mkgmap:line2poi!=true & name=* [0x0400 level 7]
-place=town & mkgmap:line2poi!=true & name=* [0x0800 level 5]
+
+(place=capitol | place=capital)    & population > 999999 & name=*  {set cityxx=yes} [0x0100 level 8 continue with_actions ]
+place=city & population > 799999 & cityxx!=yes & name=*  {set cityxx=yes} [0x0200 level 7 continue with_actions ]
+place=city & population > 399999 & cityxx!=yes & name=*  {set cityxx=yes} [0x0300 level 7 continue with_actions ]
+place=city & population > 299999 & cityxx!=yes & name=*  {set cityxx=yes} [0x0400 level 6 continue with_actions ]
+place=city & population > 199999 & cityxx!=yes & name=*  {set cityxx=yes} [0x0500 level 6 continue with_actions ]
+place=city & population >  99999 & cityxx!=yes & name=*  {set cityxx=yes} [0x0600 level 6 continue with_actions ]
+place=city & population >  49999 & cityxx!=yes & name=*  {set cityxx=yes} [0x0700 level 5 continue with_actions ]
+place=city & population >   9999 & cityxx!=yes & name=*  {set cityxx=yes} [0x0800 level 5 continue with_actions ]
+
+place=city & population >       0 & cityxx!=yes & name=*  {set cityxx=yes} [0x0800 level 5 continue with_actions ]
+place=city                          & cityxx!=yes & name=*  {set cityxx=yes} [0x0700 level 5 continue with_actions ]
+
+place=town   & population >  69999 & cityxx!=yes  & name=* {set cityxx=yes} [0x0600 level 6 continue with_actions ]
+place=town   & population >  19999 & cityxx!=yes  & name=* {set cityxx=yes} [0x0700 level 5 continue with_actions ]
+place=town   & population >   9999 & cityxx!=yes  & name=* {set cityxx=yes} [0x0800 level 4 continue with_actions ]
+place=town   & population >   4999 & cityxx!=yes  & name=* {set cityxx=yes} [0x0900 level 4 continue with_actions ]
+place=town   & population >    999 & cityxx!=yes  & name=* {set cityxx=yes} [0x0a00 level 4 continue with_actions ]
+place=town   & population >         0 & cityxx!=yes  & name=* {set cityxx=yes} [0x0b00 level 4 continue with_actions ]
+place=town                            & cityxx!=yes  & name=* {set cityxx=yes} [0x0800 level 4 continue with_actions ]
+
 place=village & mkgmap:line2poi!=true & name=* [0x0900 level 2]
 place=city & mkgmap:line2poi!=true [0x7004 level 7]
 place=town & mkgmap:line2poi!=true [0x7008 level 5]

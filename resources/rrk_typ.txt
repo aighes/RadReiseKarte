@@ -15,47 +15,47 @@ CodePage=1252
 
 ;=========== POLYGONES : PRIORITE DANS L'AFFICHAGE ======
 [_drawOrder]
-Type=0x00f,1
-Type=0x04a,1
-Type=0x04b,1
-Type=0x032,2
-Type=0x002,3
-Type=0x00c,3
-Type=0x011,3
-Type=0x017,3
-Type=0x020,3
-Type=0x021,3
-Type=0x022,3
-Type=0x023,3
-Type=0x024,3
-Type=0x025,3
-Type=0x026,3
-Type=0x045,3
-Type=0x04d,3
-Type=0x04e,3
-Type=0x04f,3
-Type=0x050,3
-Type=0x005,4
-Type=0x00b,4
-Type=0x010,4
-Type=0x013,4
-Type=0x015,4
-Type=0x016,4
-Type=0x019,4
-Type=0x01a,4
-Type=0x01e,4
-Type=0x01f,4
-Type=0x027,4
-Type=0x028,4
-Type=0x029,4
-Type=0x02a,4
-Type=0x03c,4
-Type=0x046,4
-Type=0x018,6
-Type=0x051,7
-Type=0x004,8
-Type=0x00e,8
-Type=0x014,8
+Type=0x0f,1
+Type=0x4a,1
+Type=0x4b,1
+Type=0x32,2
+Type=0x02,3
+Type=0x0c,3
+Type=0x11,3
+Type=0x17,3
+Type=0x20,3
+Type=0x21,3
+Type=0x22,3
+Type=0x23,3
+Type=0x24,3
+Type=0x25,3
+Type=0x26,3
+Type=0x45,3
+Type=0x4d,3
+Type=0x4e,3
+Type=0x4f,3
+Type=0x50,3
+Type=0x05,4
+Type=0x0b,4
+Type=0x10,4
+Type=0x13,4
+Type=0x15,4
+Type=0x16,4
+Type=0x19,4
+Type=0x1a,4
+Type=0x1e,4
+Type=0x1f,4
+Type=0x27,4
+Type=0x28,4
+Type=0x29,4
+Type=0x2a,4
+Type=0x3c,4
+Type=0x46,4
+Type=0x18,6
+Type=0x51,7
+Type=0x04,8
+Type=0x0e,8
+Type=0x14,8
 [End]
 
 
@@ -2071,9 +2071,8 @@ ExtendedLabels=N
 
 ;====================== POINTS ==========================
 
-
 [_point]
-Type=0x004
+Type=0x01
 SubType=0x00
 String1=0x02,Stadt
 ExtendedLabels=N
@@ -2095,9 +2094,146 @@ DayXpm="12 12 2 1"   Colormode=0
 ;123456789012
 [end]
 
+[_point]
+Type=0x02
+SubType=0x00
+String1=0x02,Stadt
+ExtendedLabels=N
+DayXpm="12 12 2 1"   Colormode=0
+"!	c #FFFFFF"
+"#	c #000000"
+"############"
+"############"
+"##!!!!!!!!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!!!!!!!!##"
+"############"
+"############"
+;123456789012
+[end]
 
 [_point]
-Type=0x008
+Type=0x03
+SubType=0x00
+String1=0x02,Stadt
+ExtendedLabels=N
+DayXpm="12 12 2 1"   Colormode=0
+"!	c #FFFFFF"
+"#	c #000000"
+"############"
+"############"
+"##!!!!!!!!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!!!!!!!!##"
+"############"
+"############"
+;123456789012
+[end]
+
+[_point]
+Type=0x04
+SubType=0x00
+String1=0x02,Stadt
+ExtendedLabels=N
+DayXpm="12 12 2 1"   Colormode=0
+"!	c #FFFFFF"
+"#	c #000000"
+"############"
+"############"
+"##!!!!!!!!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!######!##"
+"##!!!!!!!!##"
+"############"
+"############"
+;123456789012
+[end]
+
+[_point]
+Type=0x05
+SubType=0x00
+String1=0x02,Stadt
+ExtendedLabels=N
+DayXpm="12 12 2 1"   Colormode=16
+"!	c #000000"
+"  	c none"
+"     !!     "
+"   !!!!!!   "
+"  !!!!!!!!  "
+" !!!!!!!!!! "
+" !!!!!!!!!! "
+"!!!!!!!!!!!!"
+"!!!!!!!!!!!!"
+" !!!!!!!!!! "
+" !!!!!!!!!! "
+"  !!!!!!!!  "
+"   !!!!!!   "
+"     !!     "
+;123456789012
+[end]
+
+[_point]
+Type=0x06
+SubType=0x00
+String1=0x02,Stadt
+ExtendedLabels=N
+DayXpm="12 12 2 1"   Colormode=16
+"!	c #000000"
+"  	c none"
+"     !!     "
+"   !!!!!!   "
+"  !!!!!!!!  "
+" !!!!!!!!!! "
+" !!!!!!!!!! "
+"!!!!!!!!!!!!"
+"!!!!!!!!!!!!"
+" !!!!!!!!!! "
+" !!!!!!!!!! "
+"  !!!!!!!!  "
+"   !!!!!!   "
+"     !!     "
+;123456789012
+[end]
+
+[_point]
+Type=0x07
+SubType=0x00
+String1=0x02,Stadt
+ExtendedLabels=N
+DayXpm="12 12 2 1"   Colormode=16
+"!	c #000000"
+"  	c none"
+"     !!     "
+"   !!!!!!   "
+"  !!!!!!!!  "
+" !!!!!!!!!! "
+" !!!!!!!!!! "
+"!!!!!!!!!!!!"
+"!!!!!!!!!!!!"
+" !!!!!!!!!! "
+" !!!!!!!!!! "
+"  !!!!!!!!  "
+"   !!!!!!   "
+"     !!     "
+;123456789012
+[end]
+
+[_point]
+Type=0x08
 SubType=0x00
 String1=0x02,Stadt
 ExtendedLabels=N
@@ -2121,7 +2257,7 @@ DayXpm="12 12 2 1"   Colormode=16
 
 
 [_point]
-Type=0x009
+Type=0x09
 SubType=0x00
 String1=0x02,Dorf
 ExtendedLabels=N
@@ -2138,9 +2274,44 @@ DayXpm="7 7 2 1"   Colormode=16
 ;1234567
 [end]
 
+[_point]
+Type=0x0a
+SubType=0x00
+String1=0x02,Dorf
+ExtendedLabels=N
+DayXpm="7 7 2 1"   Colormode=16
+"!	c #000000"
+"  	c none"
+"  !!!  "
+" !!!!! "
+"!!!!!!!"
+"!!!!!!!"
+"!!!!!!!"
+" !!!!! "
+"  !!!  "
+;1234567
+[end]
 
 [_point]
-Type=0x016
+Type=0x0b
+SubType=0x00
+String1=0x02,Dorf
+ExtendedLabels=N
+DayXpm="7 7 2 1"   Colormode=16
+"!	c #000000"
+"  	c none"
+"  !!!  "
+" !!!!! "
+"!!!!!!!"
+"!!!!!!!"
+"!!!!!!!"
+" !!!!! "
+"  !!!  "
+;1234567
+[end]
+
+[_point]
+Type=0x16
 SubType=0x01
 String1=0x02,Burg
 ExtendedLabels=N
@@ -2165,7 +2336,7 @@ DayXpm="10 13 2 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x02
 String1=0x02,Burgruine
 ExtendedLabels=N
@@ -2193,7 +2364,7 @@ DayXpm="11 13 5 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x03
 String1=0x02,Höhle
 ExtendedLabels=N
@@ -2218,7 +2389,7 @@ DayXpm="10 9 6 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x07
 String1=0x02,Furt
 ExtendedLabels=N
@@ -2236,7 +2407,7 @@ DayXpm="11 5 3 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x09
 String1=0x02,Stadttor
 ExtendedLabels=N
@@ -2259,7 +2430,7 @@ DayXpm="7 11 2 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x0a
 String1=0x02,Sternwarte
 ExtendedLabels=N
@@ -2285,7 +2456,7 @@ DayXpm="9 10 6 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x0b
 String1=0x02,Leuchtturm
 ExtendedLabels=N
@@ -2317,7 +2488,7 @@ DayXpm="12 16 6 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x0c
 String1=0x02,Brunnen
 ExtendedLabels=N
@@ -2342,7 +2513,7 @@ DayXpm="11 13 2 1"   Colormode=0
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x0e
 String1=0x02,Briefkasten
 ExtendedLabels=N
@@ -2363,7 +2534,7 @@ DayXpm="10 7 4 1"   Colormode=0
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x10
 String1=0x02,Brunnen
 ExtendedLabels=N
@@ -2393,7 +2564,7 @@ DayXpm="11 13 7 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x19
 String1=0x02,Sitzbank
 ExtendedLabels=N
@@ -2414,7 +2585,7 @@ DayXpm="7 9 2 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x1a
 String1=0x02,Wasserfall
 ExtendedLabels=N
@@ -2443,7 +2614,7 @@ DayXpm="16 16 3 1"   Colormode=16
 
 
 [_point]
-Type=0x016
+Type=0x16
 SubType=0x1d
 String1=0x02,Quelle
 String2=0x04,seep
@@ -2471,7 +2642,7 @@ DayXpm="8 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x01
 String1=0x02,Spielplatz
 String2=0x04,playground
@@ -2501,7 +2672,7 @@ DayXpm="16 16 3 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x03
 String1=0x02,Eisdiele
 ExtendedLabels=N
@@ -2653,7 +2824,7 @@ DayXpm="16 16 126 2"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x04
 String1=0x02,Kläranlage
 ExtendedLabels=N
@@ -2684,7 +2855,7 @@ DayXpm="16 16 5 1"   Colormode=0
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x05
 String1=0x02,Gesundheit
 ExtendedLabels=N
@@ -2768,7 +2939,7 @@ DayXpm="16 16 58 2"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x06
 String1=0x02,Notfallsammelpunkt
 String2=0x04,emergency access point
@@ -2799,7 +2970,7 @@ DayXpm="16 16 4 1"   Colormode=0
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x07
 String1=0x02,Infotafel
 ExtendedLabels=N
@@ -2821,7 +2992,7 @@ DayXpm="8 10 2 1"   Colormode=0
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x08
 String1=0x02,Karte
 String2=0x04,map
@@ -2844,7 +3015,7 @@ DayXpm="8 10 2 1"   Colormode=0
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x0a
 String1=0x02,Kabinenbahn
 ExtendedLabels=N
@@ -2871,7 +3042,7 @@ DayXpm="11 11 6 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x0b
 String1=0x02,Sessellift
 ExtendedLabels=N
@@ -2912,7 +3083,7 @@ DayXpm="11 13 18 2"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x0c
 String1=0x02,Schlepplift
 ExtendedLabels=N
@@ -2984,7 +3155,7 @@ DayXpm="12 12 50 2"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x0d
 String1=0x02,Denkmal
 ExtendedLabels=N
@@ -3036,7 +3207,7 @@ DayXpm="7 16 26 2"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x0f
 String1=0x02,Hügelgrab
 ExtendedLabels=N
@@ -3062,7 +3233,7 @@ DayXpm="8 9 7 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x10
 String1=0x02,Festung
 ExtendedLabels=N
@@ -3106,7 +3277,7 @@ DayXpm="11 11 23 2"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x11
 String1=0x02,Schloß
 ExtendedLabels=N
@@ -3133,7 +3304,7 @@ DayXpm="10 13 4 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x12
 String1=0x02,Kirchenruine
 ExtendedLabels=N
@@ -3160,7 +3331,7 @@ DayXpm="7 11 6 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x13
 String1=0x02,Festungsruine
 ExtendedLabels=N
@@ -3203,7 +3374,7 @@ DayXpm="11 11 22 2"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x14
 String1=0x02,Schloßruine
 ExtendedLabels=N
@@ -3229,7 +3400,7 @@ DayXpm="11 13 3 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x15
 String1=0x02,Römerkastell
 ExtendedLabels=N
@@ -3252,7 +3423,7 @@ DayXpm="11 11 2 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x18
 String1=0x02,Schwimmbad
 ExtendedLabels=N
@@ -3287,7 +3458,7 @@ DayXpm="16 16 9 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x19
 String1=0x02,Park
 ExtendedLabels=N
@@ -3440,7 +3611,7 @@ DayXpm="16 16 127 2"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x1a
 String1=0x02,Wassermühle
 ExtendedLabels=N
@@ -3472,7 +3643,7 @@ DayXpm="16 16 6 1"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x1b
 String1=0x02,Mühle
 ExtendedLabels=N
@@ -3566,7 +3737,7 @@ DayXpm="16 16 68 2"   Colormode=16
 
 
 [_point]
-Type=0x01b
+Type=0x1b
 SubType=0x1c
 String1=0x02,Fabrik
 ExtendedLabels=N
@@ -3596,7 +3767,7 @@ DayXpm="16 16 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x00
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3624,7 +3795,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x01
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3652,7 +3823,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x02
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3680,7 +3851,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x03
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3708,7 +3879,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x04
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3736,7 +3907,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x06
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3764,7 +3935,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x07
 String1=0x02,Fast Food
 ExtendedLabels=N
@@ -3794,7 +3965,7 @@ DayXpm="14 12 8 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x08
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3822,7 +3993,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x09
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3850,7 +4021,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x0a
 String1=0x02,Fast Food
 ExtendedLabels=N
@@ -3880,7 +4051,7 @@ DayXpm="14 12 8 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x0b
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3908,7 +4079,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x0c
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -3936,8 +4107,8 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
-SubType=0x0d
+Type=0x2a
+SubType=0xd
 String1=0x02,Cafe
 ExtendedLabels=N
 DayXpm="16 16 179 2"   Colormode=16
@@ -4141,7 +4312,7 @@ DayXpm="16 16 179 2"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x0e
 String1=0x02,Cafe
 ExtendedLabels=N
@@ -4346,7 +4517,7 @@ DayXpm="16 16 179 2"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x0f
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -4374,7 +4545,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a
+Type=0x2a
 SubType=0x10
 String1=0x02,Restaurant
 String2=0x04,restaurant
@@ -4430,7 +4601,7 @@ DayXpm="12 15 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02b
+Type=0x2b
 SubType=0x01
 String1=0x02,Hotel
 ExtendedLabels=N
@@ -4455,7 +4626,7 @@ DayXpm="14 13 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02b
+Type=0x2b
 SubType=0x02
 String1=0x02,Hostel
 ExtendedLabels=N
@@ -4475,7 +4646,7 @@ DayXpm="14 8 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02b
+Type=0x2b
 SubType=0x03
 String1=0x02,Camping
 ExtendedLabels=N
@@ -4505,7 +4676,7 @@ DayXpm="16 16 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02c
+Type=0x2c
 SubType=0x02
 String1=0x02,Sehenswürdigkeit
 ExtendedLabels=N
@@ -4564,7 +4735,7 @@ DayXpm="16 16 33 2"   Colormode=16
 
 
 [_point]
-Type=0x02c
+Type=0x2c
 SubType=0x03
 String1=0x02,Bücherei
 ExtendedLabels=N
@@ -4602,7 +4773,7 @@ DayXpm="8 16 12 1"   Colormode=16
 
 
 [_point]
-Type=0x02c
+Type=0x2c
 SubType=0x04
 String1=0x02,Sehenswürdigkeit
 ExtendedLabels=N
@@ -4628,7 +4799,7 @@ DayXpm="4 14 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02c
+Type=0x2c
 SubType=0x0b
 String1=0x02,Kirche
 String2=0x02,church
@@ -4657,7 +4828,7 @@ DayXpm="9 16 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02c
+Type=0x2c
 SubType=0x0c
 String1=0x02,Aussicht
 ExtendedLabels=N
@@ -4685,7 +4856,7 @@ DayXpm="16 16 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02c
+Type=0x2c
 SubType=0x0d
 String1=0x02,Moschee
 ExtendedLabels=N
@@ -4710,7 +4881,7 @@ DayXpm="10 13 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02c
+Type=0x2c
 SubType=0x0e
 String1=0x02,Synagoge
 ExtendedLabels=N
@@ -4731,7 +4902,7 @@ DayXpm="9 9 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02d
+Type=0x2d
 SubType=0x01
 String1=0x02,Theater
 ExtendedLabels=N
@@ -4862,7 +5033,7 @@ DayXpm="16 15 106 2"   Colormode=16
 
 
 [_point]
-Type=0x02d
+Type=0x2d
 SubType=0x02
 String1=0x02,Biergarten
 ExtendedLabels=N
@@ -4891,7 +5062,7 @@ DayXpm="11 13 6 1"   Colormode=16
 
 
 [_point]
-Type=0x02d
+Type=0x2d
 SubType=0x03
 String1=0x02,Kino
 ExtendedLabels=N
@@ -4998,7 +5169,7 @@ DayXpm="16 16 81 2"   Colormode=16
 
 
 [_point]
-Type=0x02d
+Type=0x2d
 SubType=0x0c
 String1=0x02,Klettern
 ExtendedLabels=N
@@ -5048,7 +5219,7 @@ DayXpm="8 16 24 2"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x01
 String1=0x02,Fahrradladen
 ExtendedLabels=N
@@ -5147,7 +5318,7 @@ DayXpm="16 10 79 2"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x02
 String1=0x02,Supermarkt
 ExtendedLabels=N
@@ -5172,7 +5343,7 @@ DayXpm="11 10 5 1"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x03
 String1=0x02,Getränkemarkt
 ExtendedLabels=N
@@ -5205,7 +5376,7 @@ DayXpm="16 16 7 1"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x04
 String1=0x02,Outdoorladen
 ExtendedLabels=N
@@ -5381,7 +5552,7 @@ DayXpm="11 11 2 1"   Colormode=0
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x06
 String1=0x02,Optiker
 ExtendedLabels=N
@@ -5459,7 +5630,7 @@ DayXpm="16 7 61 2"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x07
 String1=0x02,Kiosk
 ExtendedLabels=N
@@ -5560,7 +5731,7 @@ DayXpm="11 16 75 2"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x08
 String1=0x02,Baumarkt
 ExtendedLabels=N
@@ -5587,7 +5758,7 @@ DayXpm="15 13 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x09
 String1=0x02,Drogerie
 ExtendedLabels=N
@@ -5605,7 +5776,7 @@ DayXpm="16 5 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x0a
 String1=0x02,Foto
 ExtendedLabels=N
@@ -5697,7 +5868,7 @@ DayXpm="16 16 66 2"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x10
 String1=0x02,Bäckerei
 ExtendedLabels=N
@@ -5730,7 +5901,7 @@ DayXpm="16 16 7 1"   Colormode=16
 
 
 [_point]
-Type=0x02e
+Type=0x2e
 SubType=0x11
 String1=0x02,Metzgerei
 ExtendedLabels=N
@@ -5753,7 +5924,7 @@ DayXpm="16 10 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02f
+Type=0x2f
 SubType=0x01
 String1=0x02,Tankstelle
 ExtendedLabels=N
@@ -5851,7 +6022,7 @@ DayXpm="12 14 74 2"   Colormode=16
 
 
 [_point]
-Type=0x02f
+Type=0x2f
 SubType=0x05
 String1=0x02,Post
 ExtendedLabels=N
@@ -5935,7 +6106,7 @@ DayXpm="12 10 64 2"   Colormode=0
 
 
 [_point]
-Type=0x02f
+Type=0x2f
 SubType=0x06
 String1=0x02,Bank
 ExtendedLabels=N
@@ -5975,7 +6146,7 @@ DayXpm="14 14 16 1"   Colormode=16
 
 
 [_point]
-Type=0x02f
+Type=0x2f
 SubType=0x08
 String1=0x02,Bahnhof
 ExtendedLabels=N
@@ -6117,7 +6288,7 @@ DayXpm="16 13 119 2"   Colormode=16
 
 
 [_point]
-Type=0x02f
+Type=0x2f
 SubType=0x16
 String1=0x02,Fähre
 ExtendedLabels=N
@@ -6195,7 +6366,7 @@ DayXpm="16 16 52 2"   Colormode=16
 
 
 [_point]
-Type=0x030
+Type=0x30
 SubType=0x00
 String1=0x02,Botschaft
 ExtendedLabels=N
@@ -6346,7 +6517,7 @@ DayXpm="16 16 125 2"   Colormode=16
 
 
 [_point]
-Type=0x030
+Type=0x30
 SubType=0x01
 String1=0x02,Polizei
 ExtendedLabels=N
@@ -6369,7 +6540,7 @@ DayXpm="8 11 2 1"   Colormode=0
 
 
 [_point]
-Type=0x030
+Type=0x30
 SubType=0x02
 String1=0x02,Hospital
 ExtendedLabels=N
@@ -6397,7 +6568,7 @@ DayXpm="16 16 2 1"   Colormode=16
 
 
 [_point]
-Type=0x030
+Type=0x30
 SubType=0x03
 String1=0x02,Rathaus
 ExtendedLabels=N
@@ -6421,7 +6592,7 @@ DayXpm="9 11 3 1"   Colormode=16
 
 
 [_point]
-Type=0x030
+Type=0x30
 SubType=0x08
 String1=0x02,Feuerwache
 ExtendedLabels=N
@@ -6444,7 +6615,7 @@ DayXpm="8 11 2 1"   Colormode=0
 
 
 [_point]
-Type=0x044
+Type=0x44
 SubType=0x00
 String1=0x02,Tankstelle mit Shop
 ExtendedLabels=N
@@ -6563,7 +6734,7 @@ DayXpm="12 14 95 2"   Colormode=16
 
 
 [_point]
-Type=0x046
+Type=0x46
 SubType=0x00
 String1=0x02,Bar
 ExtendedLabels=N
@@ -6607,7 +6778,7 @@ DayXpm="11 13 21 2"   Colormode=16
 
 
 [_point]
-Type=0x048
+Type=0x48
 SubType=0x03
 String1=0x02,bewirtschaftete Berghütte
 ExtendedLabels=N
@@ -6633,7 +6804,7 @@ DayXpm="11 12 4 1"   Colormode=16
 
 
 [_point]
-Type=0x048
+Type=0x48
 SubType=0x04
 String1=0x02,Wildernis hut
 ExtendedLabels=N
@@ -6658,7 +6829,7 @@ DayXpm="11 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x048
+Type=0x48
 SubType=0x05
 String1=0x02,Basic hut
 ExtendedLabels=N
@@ -6680,7 +6851,7 @@ DayXpm="11 9 3 1"   Colormode=16
 
 
 [_point]
-Type=0x048
+Type=0x48
 SubType=0x06
 String1=0x02,Lean-to
 ExtendedLabels=N
@@ -6702,7 +6873,7 @@ DayXpm="11 9 3 1"   Colormode=16
 
 
 [_point]
-Type=0x04c
+Type=0x4c
 SubType=0x00
 String1=0x02,Information
 ExtendedLabels=N
@@ -6724,7 +6895,7 @@ DayXpm="8 10 2 1"   Colormode=0
 
 
 [_point]
-Type=0x04e
+Type=0x4e
 SubType=0x00
 String1=0x02,Toiletten
 ExtendedLabels=N
@@ -6752,7 +6923,7 @@ DayXpm="15 16 2 1"   Colormode=16
 
 
 [_point]
-Type=0x050
+Type=0x50
 SubType=0x00
 String1=0x02,Wasserstelle
 ExtendedLabels=N
@@ -6781,7 +6952,7 @@ DayXpm="16 16 3 1"   Colormode=16
 
 
 [_point]
-Type=0x059
+Type=0x59
 SubType=0x05
 String1=0x02,Flughafen
 String2=0x04,airport
@@ -6810,7 +6981,7 @@ DayXpm="16 16 2 1"   Colormode=16
 
 
 [_point]
-Type=0x066
+Type=0x66
 SubType=0x15
 String1=0x02,Pass
 ExtendedLabels=N
@@ -6826,7 +6997,7 @@ DayXpm="7 4 2 1"   Colormode=16
 
 
 [_point]
-Type=0x066
+Type=0x66
 SubType=0x16
 String1=0x02,Gipfel
 ExtendedLabels=N
@@ -6842,7 +7013,7 @@ DayXpm="7 4 2 1"   Colormode=16
 
 
 [_point]
-Type=0x070
+Type=0x70
 SubType=0x04
 String1=0x02,Stadt
 ExtendedLabels=N
@@ -6866,7 +7037,7 @@ DayXpm="12 12 2 1"   Colormode=0
 
 
 [_point]
-Type=0x070
+Type=0x70
 SubType=0x08
 String1=0x02,Stadt
 ExtendedLabels=N
@@ -6890,7 +7061,7 @@ DayXpm="12 12 2 1"   Colormode=16
 
 
 [_point]
-Type=0x070
+Type=0x70
 SubType=0x09
 String1=0x02,Dorf
 ExtendedLabels=N
@@ -6909,7 +7080,7 @@ DayXpm="7 7 2 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x00
 String1=0x02,
 ExtendedLabels=N
@@ -6922,7 +7093,7 @@ DayXpm="1 1 2 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x01
 String1=0x02,Gefahrenstelle
 ExtendedLabels=N
@@ -7016,7 +7187,7 @@ DayXpm="14 13 71 2"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x02
 String1=0x02,Mast
 ExtendedLabels=N
@@ -7045,7 +7216,7 @@ DayXpm="7 16 3 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x03
 String1=0x02,Windgenerator
 ExtendedLabels=N
@@ -7080,7 +7251,7 @@ DayXpm="9 15 10 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x04
 String1=0x02,Sendemast
 ExtendedLabels=N
@@ -7108,7 +7279,7 @@ DayXpm="13 14 4 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x05
 String1=0x02,Wegkreuz
 ExtendedLabels=N
@@ -7129,7 +7300,7 @@ DayXpm="5 8 3 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x06
 String1=0x02,Hochsitz
 ExtendedLabels=N
@@ -7155,7 +7326,7 @@ DayXpm="6 12 4 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x07
 String1=0x02,Wegweiser
 ExtendedLabels=N
@@ -7182,7 +7353,7 @@ DayXpm="11 14 3 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x08
 String1=0x02,Bahnübergang
 ExtendedLabels=N
@@ -7211,7 +7382,7 @@ DayXpm="11 16 3 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x09
 String1=0x02,Tor
 ExtendedLabels=N
@@ -7231,7 +7402,7 @@ DayXpm="10 6 4 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x0a
 String1=0x02,Umlaufsperre
 ExtendedLabels=N
@@ -7257,7 +7428,7 @@ DayXpm="12 12 4 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x0b
 String1=0x02,Poller
 ExtendedLabels=N
@@ -7282,7 +7453,7 @@ DayXpm="12 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x0c
 String1=0x02,Barriere
 ExtendedLabels=N
@@ -7307,7 +7478,7 @@ DayXpm="12 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x0d
 String1=0x02,Rastplatz
 ExtendedLabels=N
@@ -7398,7 +7569,7 @@ DayXpm="13 11 70 2"   Colormode=16
 
 
 [_point]
-Type=0x090
+Type=0x90
 SubType=0x0e
 String1=0x02,Turm
 ExtendedLabels=N
@@ -7420,7 +7591,7 @@ DayXpm="7 10 2 1"   Colormode=16
 
 
 [_point]
-Type=0x091
+Type=0x91
 SubType=0x01
 String1=0x02,Schleusentor
 String2=0x04,lock gate
@@ -7446,7 +7617,7 @@ DayXpm="8 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x091
+Type=0x91
 SubType=0x02
 String1=0x02,Schleuse
 String2=0x04,lock
@@ -7472,7 +7643,7 @@ DayXpm="16 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x091
+Type=0x91
 SubType=0x03
 String1=0x02,Umtrage
 String2=0x04,portage
