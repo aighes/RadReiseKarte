@@ -7078,17 +7078,6 @@ DayXpm="7 7 2 1"   Colormode=16
 ;1234567
 [end]
 
-[_point]
-Type=0x70
-SubType=0x0a
-String1=0x02,
-ExtendedLabels=N
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #FFFFFF"
-"  	c none"
-" "
-;1
-[end]
 
 [_point]
 Type=0x90
