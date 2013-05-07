@@ -1,0 +1,26 @@
+style-file=./resources/style_rrk
+draw-priority=24
+license-file=./resources/license-mkgmap.txt
+copyright-message=OpenStreetMap contributors, ODbL. See: http://www.openstreetmap.org/copyright
+levels=0:24, 1:23, 2:22, 3:21, 4:20, 5:18, 6:16
+route
+tdbfile
+link-pois-to-ways
+location-autofill=is_in,nearest
+index
+bounds=./resources/bounds.zip
+ignore-maxspeeds
+add-pois-to-lines
+add-pois-to-areas
+pois-to-areas-placement=entrance=main;entrance=yes;building=entrance
+product-id=1
+preserve-element-order
+merge-lines
+remove-short-arcs=2.8
+reduce-point-density=4
+reduce-point-density-polygon=8
+min-size-polygon=8
+precomp-sea=./resources/sea
+generate-sea
+gmapsupp
+nsis

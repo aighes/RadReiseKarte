@@ -1,0 +1,22 @@
+oneway=yes & ( cycleway=opposite | cycleway=opposite_lane | cycleway=opposite_track | bicycle=opposite | bicycle=opposite_lane | bicycle=opposite_track | bicycle:oneway=no | oneway:bicycle=no) { delete oneway }
+( bicycle=designated | bicycle=official ) { set bicycle=yes }
+
+motorroad=yes { set access=no }
+bicycle=no { set access=no }
+bicycle=private { set access=private }
+bicycle=destination { set access=destination }
+bicycle=permissive { set access=permissive }
+bicycle=yes { set access=yes }
+access=bicycle { set access=yes }
+access=vehicle { delete access }
+access=motor_vehicle { delete access }
+access=hgv { delete access }
+access=bus { delete access }
+access=foot { delete access }
+access=taxi { delete access }
+access=goods { delete access }
+access=delivery { delete access }
+vehicle=* { delete vehicle }
+bicycle=* { delete bicycle }
+motor_vehicle=* { delete motor_vehicle }
+foot=* { delete foot }

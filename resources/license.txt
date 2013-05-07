@@ -1,0 +1,7 @@
+Lizenz | License
+================
+Das im Archiv enthaltenen Kartenmaterial entstammt den Daten von OpenStreetMap Mitwirkenden und stehen unter ODbL.
+	http://opendatacommons.org/licenses/odbl/
+	
+The map included in this archiv contains data from OpenStreetMap OpenStreetMap contributors under the terms of ODbL.
+	http://opendatacommons.org/licenses/odbl/

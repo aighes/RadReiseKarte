@@ -1,0 +1,9 @@
+include "address";
+include "name-change";
+
+type=restriction & except ~ '.*bicycle*.' { delete type ; delete restriction }
+type=restriction:bicycle { set restriction = '${restriction:bicycle}' }
+
+type=route & route=bicycle & ( network=icn | icn=yes | network=ncn | ncn=yes | network=rcn | rcn=yes | network=rcn | rcn=yes | network=tcn | tcn=yes | network=lcn | lcn=yes ) & (state!=proposed | icn!=proposed | ncn!=proposed | rcn!=proposed | tcn!=proposed | lcn!=proposed ) { apply { set rrk_Radweg=yes ; set rrk_name='$(rrk_name),${ref}' | '$(rrk_name),${name}' | '${ref}' | '${name}' } }
+( type=boundary | type=multipolygon ) & boundary=administrative & admin_level=2 { apply { set rrk_boundary=yes } }
+type=route & route=ferry { apply { set route=ferry ; set rrk_name='$(rrk_name),${name}' | '${name}' } }
