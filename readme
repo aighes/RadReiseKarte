@@ -1,0 +1,20 @@
+Before generating you have to download several things:
+
+* download splitter [1] and mkgmap [2] and extract the zip-file to directory ./bin
+
+* download boundaries and precompiled sea [3]
+	* rename boundary-zip-file to bounds.zip and place it into directory ./data
+	* extract precompiled sea-zip to data-folder
+
+#generate_map.sh:
+	* generates all the maps
+	* recommended to adapt this to your needs and input-files.
+	
+#proof_style.sh:
+	* only needed, if you change the style
+	* check, if style rules contains syntax-errors
+
+	
+[1] http://www.mkgmap.org.uk/splitter/
+[2] http://www.mkgmap.org.uk/snapshots/
+[3] http://www.navmaps.eu/boundaries
