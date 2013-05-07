@@ -1,1 +1,5 @@
 name=* & ( name:en=* | int_name=* ) { set mkgmap:display_name='${name} (${int_name})' | '${name} (${name:en})' }
+name:en=* { set rrk_name='${name:en}' }
+int_name=* & rrk_name!=* { set rrk_name='${int_name}' }
+( mkgmap:country!=DEU & mkgmap:country!=AUT & mkgmap:country!=NLD & mkgmap:country!=BEL & mkgmap:country!=CZE & mkgmap:country!=DNK & mkgmap:country!=FIN  & mkgmap:country!=FRA & mkgmap:country!=ITA & mkgmap:country!=SWE & mkgmap:country!=LUX & mkgmap:country!=NOR & mkgmap:country!=POL & mkgmap:country!=PRT & mkgmap:country!=ESP & mkgmap:country!=SVN & mkgmap:country!=CHE ) & rrk_name=* { set name='${rrk_name}' }
+rrk_name=* { delete rrk_name }

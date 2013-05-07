@@ -1,4 +1,4 @@
-Time started: Tue May 07 20:13:53 CEST 2013
+Time started: Tue May 07 23:23:40 CEST 2013
 Note that option order is significant:  An option only applies to
 subsequent input files.  (So if you are using splitter, you probably
 want to put most of your options before '-c template.args'.)
@@ -589,5 +589,5 @@ Miscellaneous options:
 
 --verbose
 	Makes some operations more verbose. Mostly used with --list-styles.
-Time finished: Tue May 07 20:13:53 CEST 2013
-Total time taken: 59ms
+Time finished: Tue May 07 23:23:40 CEST 2013
+Total time taken: 56ms
