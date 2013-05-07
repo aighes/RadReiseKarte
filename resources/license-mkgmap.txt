@@ -1,2 +1,0 @@
-Map data (c) OpenStreetMap contributors, ODbL (http://opendatacommons.org/licenses/odbl/)
-Map created with mkgmap-r2585M and data of 20130507
