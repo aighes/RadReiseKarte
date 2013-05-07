@@ -12,6 +12,8 @@
 *.tdb
 *.exe
 *~
+help.txt
+license-mkgmap.txt
 10000000.nsi
 10000000_license.txt
 11000000.nsi
