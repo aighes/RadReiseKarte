@@ -4,6 +4,13 @@
 *.log
 *.pbf
 *.osm
+*.gz
+*.7z
+*.img
+*.mdx
+*.typ
+*.tdb
+*.exe
 *~
 10000000.nsi
 10000000_license.txt
