@@ -1,1 +1,0 @@
-name=* & ( name:en=* | int_name=* ) { set mkgmap:display_name='${name} (${int_name})' | '${name} (${name:en})' }
