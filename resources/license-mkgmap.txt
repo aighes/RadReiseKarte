@@ -1,0 +1,3 @@
+Map data (c) OpenStreetMap contributors, ODbL (http://opendatacommons.org/licenses/odbl/)
+Map created with mkgmap-rTime started: Tue May 07 00:46:17 CEST 2013
+2585M and data of 20130507
