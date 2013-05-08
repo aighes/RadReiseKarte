@@ -15,7 +15,7 @@ aeroway=aerodrome & mkgmap:line2poi!=true [0x5905 level 0]
 
 ( highway=ford | ford=yes ) & ( mkgmap:line2poi!=true | mkgmap:line2poitype=mid ) [0x1607 level 2]
 
-( place=capitol | place=capital ) & name=* & mkgmap:line2poi!=true [0x0100 level 8]
+( place=capitol | place=capital | is_capitol=country ) & name=* & mkgmap:line2poi!=true [0x0100 level 8]
 place=city & population>4999999 & name=* & mkgmap:line2poi!=true [0x0100 level 8]
 place=city & population>399999 & name=* & mkgmap:line2poi!=true [0x0300 level 7]
 place=city & population>99999 & name=*  & mkgmap:line2poi!=true [0x0600 level 6]
