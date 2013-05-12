@@ -4,7 +4,32 @@ include "name-change";
 type=restriction & except ~ '.*bicycle*.' { delete type ; delete restriction }
 type=restriction:bicycle { set restriction = '${restriction:bicycle}' }
 
-type=route & route=bicycle & ( network=icn | icn=yes | network=ncn | ncn=yes | network=rcn | rcn=yes | network=rcn | rcn=yes | network=tcn | tcn=yes | network=lcn | lcn=yes ) & (state!=proposed | icn!=proposed | ncn!=proposed | rcn!=proposed | tcn!=proposed | lcn!=proposed ) { apply { set rrk_Radweg=yes ; set rrk_name='$(rrk_name),${ref}' | '$(rrk_name),${name}' | '${ref}' | '${name}' } }
+type=route & route=bicycle & ( network=icn | icn=yes ) & ( state!=proposed | icn!=proposed ) {
+	apply {
+		set rrk_Radweg=yes; set rrk_int_name='$(rrk_int_name),${name}' | '${name}'; set rrk_int_name='$(rrk_int_name),${ref}' | '${ref}'
+	}
+}
 
-( type=boundary | type=multipolygon ) & boundary=administrative & admin_level=2 { apply { set rrk_boundary=yes } }
-type=route & route=ferry { apply { set route=ferry ; set rrk_name='$(rrk_name),${name}' | '${name}' } }
+type=route & route=bicycle & ( network=ncn | ncn=yes ) & ( state!=proposed | ncn!=proposed ) {
+	apply {
+		set rrk_Radweg=yes; set rrk_nat_name='$(rrk_nat_name),${name}' | '${name}'; set rrk_nat_ref='$(rrk_nat_ref),${ref}' | '${ref}'
+	}
+}
+
+type=route & route=bicycle & ( network=rcn | rcn=yes ) & ( state!=proposed | rcn!=proposed )  { 
+	apply {
+		set rrk_Radweg=yes ; set rrk_reg_name='$(rrk_reg_name),${name}' | '${name}'; set rrk_reg_ref='$(rrk_reg_ref),${ref}' | '${ref}'
+	}
+}
+
+type=route & route=bicycle & ( network=lcn | lcn=yes ) & ( state!=proposed | lcn!=proposed ) { 
+	apply {
+		set rrk_Radweg=yes ; set rrk_loc_name='$(rrk_loc_name),${name}' | '${name}'; set rrk_loc_ref='$(rrk_loc_ref),${ref}' | '${ref}'
+	}
+}
+
+( type=boundary | type=multipolygon ) & boundary=administrative & admin_level=2 
+	{ apply { set rrk_boundary=yes }}
+
+type=route & route=ferry 
+	{ apply { set route=ferry ; set rrk_name='$(rrk_name),${name}' | '${name}' } }
