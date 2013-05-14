@@ -50,14 +50,14 @@ tunnel=yes & ( highway=* ) [0x10104 level 3 continue]
 embankment=yes | embankment=true | man_made=dyke | waterway=dam [0x10015 level 2 continue]
 cutting=yes | cutting=true [0x10016 level 2 continue]
 
-rrk_Radweg=yes & rrk_int_ref=* { set name='${rrk_int_ref|highway-symbol:oval}'; set rrk_processed=yes } [0x10101 level 4 continue]
-rrk_Radweg=yes & rrk_nat_ref=* & rrk_processed!=yes { set name='${rrk_nat_ref|highway-symbol:oval}'; set rrk_processed=yes } [0x10101 level 4 continue]
-rrk_Radweg=yes & rrk_reg_ref=* & rrk_processed!=yes { set name='${rrk_reg_ref}'; set rrk_processed=yes } [0x10101 level 4 continue]
-rrk_Radweg=yes & rrk_loc_ref=* & rrk_processed!=yes { set name='${rrk_loc_ref}'; set rrk_processed=yes } [0x10101 level 4 continue]
-rrk_Radweg=yes & rrk_int_name=* & rrk_processed!=yes { set name='${rrk_int_name}'; set rrk_processed=yes } [0x10101 level 4 continue]
-rrk_Radweg=yes & rrk_nat_name=* & rrk_processed!=yes { set name='${rrk_nat_name}'; set rrk_processed=yes } [0x10101 level 4 continue]
-rrk_Radweg=yes & rrk_reg_name=* & rrk_processed!=yes { set name='${rrk_reg_name}'; set rrk_processed=yes } [0x10101 level 4 continue]
-rrk_Radweg=yes & rrk_loc_name=* & rrk_processed!=yes { set name='${rrk_loc_name}' } [0x10101 level 4 continue]
+rrk_Radweg=yes & rrk_int_ref=* { name '${rrk_int_ref}'; set rrk_processed=yes } [0x28 level 4 continue]
+rrk_Radweg=yes & rrk_nat_ref=* & rrk_processed!=yes { name '${rrk_nat_ref}'; set rrk_processed=yes } [0x28 level 4 continue]
+rrk_Radweg=yes & rrk_reg_ref=* & rrk_processed!=yes { set name='${rrk_reg_ref}'; set rrk_processed=yes } [0x28 level 4 continue]
+rrk_Radweg=yes & rrk_loc_ref=* & rrk_processed!=yes { set name='${rrk_loc_ref}'; set rrk_processed=yes } [0x28 level 4 continue]
+rrk_Radweg=yes & rrk_int_name=* & rrk_processed!=yes { set name='${rrk_int_name}'; set rrk_processed=yes } [0x28 level 4 continue]
+rrk_Radweg=yes & rrk_nat_name=* & rrk_processed!=yes { set name='${rrk_nat_name}'; set rrk_processed=yes } [0x28 level 4 continue]
+rrk_Radweg=yes & rrk_reg_name=* & rrk_processed!=yes { set name='${rrk_reg_name}'; set rrk_processed=yes } [0x28 level 4 continue]
+rrk_Radweg=yes & rrk_loc_name=* & rrk_processed!=yes { set name='${rrk_loc_name}' } [0x28 level 4 continue]
 
 ##Routing
 ###ferry

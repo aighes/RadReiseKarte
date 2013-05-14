@@ -114,6 +114,11 @@ famid=1400
 codepage=1252
 GenerateMap
 
+name=Patagonia
+famid=1500
+codepage=1252
+GenerateMap
+
 name=Australia
 famid=1700
 codepage=1252

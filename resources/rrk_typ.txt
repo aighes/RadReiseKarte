@@ -1392,6 +1392,32 @@ ExtendedLabels=N
 
 
 [_line]
+Type=0x28
+UseOrientation=Y
+Xpm="32 13 2  1"
+"! c #054EC1"
+"  c none"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+String1=0x02,Radroute
+String2=0x04,cycleroute
+ExtendedLabels=N
+[end]
+
+
+[_line]
 Type=0x10001
 UseOrientation=N
 LineWidth=4
@@ -1839,32 +1865,6 @@ Xpm="32 6 2  1"
 "   !  !  !                      "
 "   !  !  !                      "
 ;12345678901234567890123456789012
-ExtendedLabels=N
-[end]
-
-
-[_line]
-Type=0x10101
-UseOrientation=Y
-Xpm="32 13 2  1"
-"! c #054EC1"
-"  c none"
-"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-;12345678901234567890123456789012
-String1=0x02,Radroute
-String2=0x04,cycleroute
 ExtendedLabels=N
 [end]
 
