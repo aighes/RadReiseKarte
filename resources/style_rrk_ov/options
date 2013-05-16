@@ -20,7 +20,8 @@ merge-lines
 remove-short-arcs=2.8
 reduce-point-density=3
 reduce-point-density-polygon=6
-min-size-polygon=6
+min-size-polygon=12
+polygon-size-limits=24:12, 18:10, 16:8, 12:4, 10:0
 precomp-sea=./data/sea
 generate-sea
 gmapsupp
