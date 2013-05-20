@@ -30,9 +30,9 @@ rm ./maps/$name/ovm_*.img
 
 rm maps/$name/gmapsupp.img
 
-cp -rf ./maps/$name/ $windows"/"
-
 makensis ./maps/$name/$famid"0000.nsi"
+
+cp -rf ./maps/$name/ $windows"/"
 
 7za a -t7z $output/upload/MS_$name.7z ./maps/$name/*.img ./maps/$name/*.mdx ./resources/license.txt ./maps/$name/*.typ ./maps/$name/*.tdb ./maps/$name/Install.exe ./resources/legende_de.png -mx9
 
