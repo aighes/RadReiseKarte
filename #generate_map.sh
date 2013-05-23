@@ -119,11 +119,6 @@ famid=1005
 codepage=1252
 GenerateMap
 
-name=Balkan
-famid=1006
-codepage=1250
-GenerateMap
-
 name=Australia
 famid=1007
 codepage=1252
