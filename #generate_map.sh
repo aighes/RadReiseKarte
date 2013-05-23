@@ -9,7 +9,7 @@ rm ./maps/$name/*.tmp
 
 echo $famid>>mkgmap_error.log
 
-java -Xmx10000M -XX:+UseCompressedOops -jar ./bin/mkgmap.jar --read-config=./resources/style_rrk/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name $famid*.o5m ./resources/rrk_typ.txt 2>> mkgmap_error.log
+java -Xmx10000M -XX:+UseCompressedOops -jar ./bin/mkgmap-overview2.jar --read-config=./resources/style_rrk/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name $famid*.o5m ./resources/rrk_typ.txt 2>> mkgmap_error.log
 
 echo $TIME compressing $name >> log.log
 echo $TIME compressing $name
@@ -24,14 +24,15 @@ echo "Map created with mkgmap-r$version" >> ./maps/$name/$famid"0000_license.txt
 
 rm $output/upload/$name.7z
 rm $output/upload/MS_$name.7z
+rm ./maps/$name/ovm_*.img
 
 7za a -t7z $output/upload/$name.7z ./maps/$name/gmapsupp.img ./resources/license.txt ./resources/legende_de.png -mx9
 
 rm maps/$name/gmapsupp.img
 
-cp -rf ./maps/$name/ $windows"/"
-
 makensis ./maps/$name/$famid"0000.nsi"
+
+cp -rf ./maps/$name/ $windows"/"
 
 7za a -t7z $output/upload/MS_$name.7z ./maps/$name/*.img ./maps/$name/*.mdx ./resources/license.txt ./maps/$name/*.typ ./maps/$name/*.tdb ./maps/$name/Install.exe ./resources/legende_de.png -mx9
 
@@ -55,6 +56,7 @@ threads=4
 echo "" >> log.log
 echo $heute >> log.log
 echo "" >> log.log
+
 
 java -ea -jar ./bin/mkgmap.jar --version 2>temp
 version=`cat temp`
@@ -93,38 +95,53 @@ codepage=1252
 GenerateMap
 
 name=Turkey
-famid=1100
+famid=1001
 codepage=1254
 GenerateMap
 
 name=Scandinavia
-famid=1200
+famid=1002
 codepage=1252
 GenerateMap
 
 name=Poland-Czech
-famid=1300
+famid=1003
 codepage=1250
 GenerateMap
 
 name=BeNeLux
-famid=1400
+famid=1004
 codepage=1252
 GenerateMap
 
+name=Patagonia
+famid=1005
+codepage=1252
+GenerateMap
+
+name=Balkan
+famid=1006
+codepage=1250
+GenerateMap
+
 name=Australia
-famid=1700
+famid=1007
 codepage=1252
 GenerateMap
 
 name=NewZealand
-famid=1800
+famid=1008
 codepage=1252
 GenerateMap
 
 name=GreatBritain
-famid=1900
+famid=1009
 codepage=1252
+GenerateMap
+
+name=Oman
+famid=1010
+codepage=1256
 GenerateMap
 
 echo $TIME finished >> log.log

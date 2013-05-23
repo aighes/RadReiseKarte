@@ -1,6 +1,6 @@
-include "address";
-include "name-change";
-include "access-change";
+include "inc/address";
+include "inc/name-change";
+include "inc/access-change";
 
 #Name ergänzen
 shop=* & operator=* & name!=* { set name='${operator}' }
@@ -15,12 +15,22 @@ aeroway=aerodrome & mkgmap:line2poi!=true [0x5905 level 0]
 
 ( highway=ford | ford=yes ) & ( mkgmap:line2poi!=true | mkgmap:line2poitype=mid ) [0x1607 level 2]
 
-place=city & mkgmap:line2poi!=true & name=* [0x0400 level 6]
-place=town & mkgmap:line2poi!=true & name=* [0x0800 level 5]
-place=village & mkgmap:line2poi!=true & name=* [0x0900 level 2]
-place=city & mkgmap:line2poi!=true [0x7004 level 6]
+( rrk:capital:country=yes ) & name=* & mkgmap:line2poi!=true [0x0100 level 8]
+place=city & population>4999999 & name=* & mkgmap:line2poi!=true [0x0100 level 8]
+place=city & population>399999 & name=* & mkgmap:line2poi!=true [0x0300 level 7]
+place=city & population>99999 & name=*  & mkgmap:line2poi!=true [0x0600 level 6]
+place=city & population=* & name=* & mkgmap:line2poi!=true [0x0800 level 5]
+place=city & name=* & mkgmap:line2poi!=true [0x0700 level 5]
+
+place=town & population> 69999 & name=* & mkgmap:line2poi!=true [0x0600 level 6]
+place=town & population>  19999 & name=* & mkgmap:line2poi!=true [0x0700 level 5]
+place=town & name=* & mkgmap:line2poi!=true [0x0800 level 4]
+
+place=village & name=* & mkgmap:line2poi!=true [0x0900 level 2]
+place=city & mkgmap:line2poi!=true [0x7004 level 7]
 place=town & mkgmap:line2poi!=true [0x7008 level 5]
 place=village & mkgmap:line2poi!=true [0x7009 level 2]
+place=hamlet & mkgmap:line2poi!=true [0x7009 level 1]
 
 amenity=drinking_water & mkgmap:line2poi!=true [0x5000 level 0]
 waterway=water_point & mkgmap:line2poi!=true [0x5000 level 0]
@@ -64,6 +74,9 @@ man_made=tower & mkgmap:line2poi!=true [0x900e level 0]
 man_made=water_tower & mkgmap:line2poi!=true [0x900e level 0]
 natural=spring & mkgmap:line2poi!=true [0x161d level 0]
 tourism=picnic_site & mkgmap:line2poi!=true [0x900d level 0]
+natural=bay & mkgmap:line2poi!=true [0x1e04 level 5]
+natural=sea & mkgmap:line2poi!=true [0x1e04 level 7]
+place=country & mkgmap:line2poi!=true [0x1500 level 8-7]
 
 #information
 information=office & mkgmap:line2poi!=true [0x4c00 level 0]
