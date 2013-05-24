@@ -1114,6 +1114,32 @@ Xpm="32 32 4 1"
 
 
 [_line]
+Type=0x01
+UseOrientation=N
+LineWidth=4
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #FF7816"
+"2 c #666666"
+String1=0x02,Autobahn
+ExtendedLabels=N
+[end]
+
+
+[_line]
+Type=0x02
+UseOrientation=N
+LineWidth=3
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #FF7816"
+"2 c #666666"
+String1=0x02,Ausfahrt
+ExtendedLabels=N
+[end]
+
+
+[_line]
 Type=0x03
 UseOrientation=N
 LineWidth=2
