@@ -42,9 +42,13 @@ railway=platform & area!=yes [0x0F road_class=1 road_speed=1 level 0]
 railway=tram & tunnel!=yes & highway!=* [0x1001C level 0]
 railway=preserved & tunnel!=yes & highway!=* [0x1001C level 4]
 railway=narrow_gauge & tunnel!=yes & highway!=* [0x1001C level 4]
+
+waterway=wadi | ( waterway=river & intermittent=yes ) [0x1001b level 5]
+waterway=stream & intermittent=yes [0x1001b level 4]
 waterway=river & tunnel!=yes [0x1001d level 5]
 waterway=stream & tunnel!=yes [0x1001e level 4]
 waterway=canal & tunnel!=yes [0x1001f level 5]
+
 natural=strait | waterway=strait [0x10108 level 6]
 natural=cliff & LINZ:dataset!=* [0x10018 level 2]
 barrier=hedge [0x10109 level 0 continue]

@@ -1121,7 +1121,8 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF7816"
 "2 c #666666"
-String1=0x02,Autobahn
+String1=0x02,Kraftstraﬂe
+String2=0x04,motorway
 ExtendedLabels=N
 [end]
 
@@ -1134,7 +1135,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF7816"
 "2 c #666666"
-String1=0x02,Ausfahrt
+String1=0x00,
 ExtendedLabels=N
 [end]
 
@@ -1147,8 +1148,8 @@ BorderWidth=2
 Xpm="0 0 2 0"
 "1 c #FCFC32"
 "2 c #CC2929"
-String1=0x02,Kraftstrasse
-String2=0x04,trunk
+String1=0x02,Schnellstraﬂe
+String2=0x04,highway
 ExtendedLabels=N
 [end]
 
@@ -1161,8 +1162,8 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF0A0A"
 "2 c #666666"
-String1=0x02,Bundesstrasse
-String2=0x04,primary
+String1=0x02,Hauptstraﬂe
+String2=0x04,main road
 ExtendedLabels=N
 [end]
 
@@ -1175,8 +1176,8 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FFC213"
 "2 c #666666"
-String1=0x02,Landstrasse
-String2=0x04,secondary
+String1=0x02,Regionalstraﬂe
+String2=0x04,regional road
 ExtendedLabels=N
 [end]
 
@@ -1189,8 +1190,8 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FCE832"
 "2 c #666666"
-String1=0x02,Kreisstrasse
-String2=0x04,tertiary
+String1=0x02,Kommunalstraﬂe
+String2=0x04,local road
 ExtendedLabels=N
 [end]
 
@@ -1204,6 +1205,7 @@ Xpm="0 0 2 0"
 "1 c #E4E4E4"
 "2 c #666666"
 String1=0x02,Strasse
+String2=0x04,road
 ExtendedLabels=N
 [end]
 
@@ -1217,6 +1219,7 @@ Xpm="0 0 2 0"
 "1 c #E4E4E4"
 "2 c #8C8C8C"
 String1=0x02,Ortsstrasse
+String2=0x04,residential road
 ExtendedLabels=N
 [end]
 
@@ -1247,7 +1250,7 @@ Xpm="32 7 2  1"
 "  !!!             !!!           "
 "   !               !            "
 ;12345678901234567890123456789012
-String1=0x02,unebener befestigter weg
+String1=0x02,unebener befestigter Weg
 ExtendedLabels=N
 [end]
 
@@ -1425,7 +1428,8 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF7816"
 "2 c #666666"
-String1=0x02,Autobahn
+String1=0x02,Kraftstraﬂe
+String2=0x04,motorway
 ExtendedLabels=N
 [end]
 
@@ -1438,7 +1442,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF7816"
 "2 c #666666"
-String1=0x02,Ausfahrt
+String1=0x00,
 ExtendedLabels=N
 [end]
 
@@ -1451,7 +1455,8 @@ BorderWidth=2
 Xpm="0 0 2 0"
 "1 c #FCFC32"
 "2 c #CC2929"
-String1=0x02,Kraftstrasse
+String1=0x02,Schnellstraﬂe
+String2=0x04,highway
 ExtendedLabels=N
 [end]
 
@@ -1464,7 +1469,8 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF0A0A"
 "2 c #666666"
-String1=0x02,Bundesstrasse
+String1=0x02,Hauptstraﬂe
+String2=0x04,main road
 ExtendedLabels=N
 [end]
 
@@ -1477,7 +1483,8 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FFC213"
 "2 c #666666"
-String1=0x02,Landstrasse
+String1=0x02,Regionalstraﬂe
+String2=0x04,regional road
 ExtendedLabels=N
 [end]
 
@@ -1490,7 +1497,8 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FCE832"
 "2 c #666666"
-String1=0x02,Kreisstrasse
+String1=0x02,Kommunalstraﬂe
+String2=0x04,local road
 ExtendedLabels=N
 [end]
 
@@ -1504,6 +1512,7 @@ Xpm="0 0 2 0"
 "1 c #E4E4E4"
 "2 c #666666"
 String1=0x02,Strasse
+String2=0x04,road
 ExtendedLabels=N
 [end]
 
@@ -1516,7 +1525,8 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #E4E4E4"
 "2 c #8C8C8C"
-String1=0x02,Ortsstrasse
+String1=0x02,Ortsstraﬂe
+String2=0x04,residential road
 ExtendedLabels=N
 [end]
 
@@ -1547,7 +1557,7 @@ Xpm="32 7 2  1"
 "  !!!             !!!           "
 "   !               !            "
 ;12345678901234567890123456789012
-String1=0x02,Kopfsteinpflaster
+String1=0x02,unebener befestigter Weg
 ExtendedLabels=N
 [end]
 
@@ -1777,6 +1787,21 @@ Xpm="0 0 2 0"
 "1 c #FF0000"
 "2 c #FFFFFF"
 String1=0x02,road
+ExtendedLabels=N
+[end]
+
+
+[_line]
+Type=0x1001b
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #79B8FF"
+"  c none"
+"            !!!!!!!!!!!!!!!!!!!!"
+"            !!!!!!!!!!!!!!!!!!!!"
+"            !!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x02,Wadi
 ExtendedLabels=N
 [end]
 
