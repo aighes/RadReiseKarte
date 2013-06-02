@@ -1,5 +1,11 @@
 #!/bin/bash
 
+heute=`date +"%Y%m%d"`
+output=/media/D/RadReiseKarte
+windows=/media/D/Garmin
+mkgmap=./bin/mkgmap.jar
+threads=4
+
 GenerateMap()
 {
 echo $TIME generating $name >> log.log
@@ -9,7 +15,7 @@ rm ./maps/$name/*.tmp
 
 echo $famid>>mkgmap_error.log
 
-java -Xmx10000M -XX:+UseCompressedOops -jar ./bin/mkgmap-overview2.jar --read-config=./resources/style_rrk/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --product-version=$heute --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name $famid*.o5m ./resources/rrk_typ.txt 2>> mkgmap_error.log
+java -Xmx10000M -XX:+UseCompressedOops -jar $mkgmap --read-config=./resources/style_rrk/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --product-version=$heute --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name $famid*.o5m ./resources/rrk_typ.txt 2>> mkgmap_error.log
 
 echo $TIME compressing $name >> log.log
 echo $TIME compressing $name
@@ -47,18 +53,12 @@ echo $TIME $name finished
 return
 }
 
-heute=`date +"%Y%m%d"`
-basefile=/home/OSM/mkgmap
-output=/media/D/RadReiseKarte
-windows=/media/D/Garmin
-threads=4
-
 echo "" >> log.log
 echo $heute >> log.log
 echo "" >> log.log
 
 
-java -ea -jar ./bin/mkgmap.jar --version 2>temp
+java -ea -jar $mkgmap --version 2>temp
 version=`cat temp`
 rm temp
 
