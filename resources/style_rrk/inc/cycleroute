@@ -5,18 +5,15 @@ rrk:Radweg=yes & ( highway=residential | highway=paved | highway=normal | highwa
 rrk:Radweg=yes & ( highway=service | highway=living_street | highway=steps | highway=cobblestone | highway=bad | highway=road ) { set rrk:level=2 }
 rrk:Radweg=yes & ( highway=pedestrian | highway=footway | man_made=pier | railway=platform ) { set rrk:level=0 }
 
-rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=6 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 7-7 continue]
-rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=5 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 6-7 continue]
-rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=4 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 5-7 continue]
-rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=3 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 4-7 continue]
-rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=2 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 3-7 continue]
-rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=0 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 1-7 continue]
+rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=4 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 5-5 continue]
+rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=3 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 4-5 continue]
+rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=2 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 3-5 continue]
+rrk:Radweg=yes & rrk:int_ref=* & rrk:processed!=yes & rrk:level=0 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 1-5 continue]
 
-rrk:Radweg=yes & rrk:nat_ref=* & rrk:processed!=yes & rrk:level=5 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 6-6 continue]
-rrk:Radweg=yes & rrk:nat_ref=* & rrk:processed!=yes & rrk:level=4 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 5-e continue]
-rrk:Radweg=yes & rrk:nat_ref=* & rrk:processed!=yes & rrk:level=3 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 4-6 continue]
-rrk:Radweg=yes & rrk:nat_ref=* & rrk:processed!=yes & rrk:level=2 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 3-6 continue]
-rrk:Radweg=yes & rrk:nat_ref=* & rrk:processed!=yes & rrk:level=0 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 1-6 continue]
+rrk:Radweg=yes & rrk:nat_ref=* & rrk:processed!=yes & rrk:level=4 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 5-5 continue]
+rrk:Radweg=yes & rrk:nat_ref=* & rrk:processed!=yes & rrk:level=3 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 4-5 continue]
+rrk:Radweg=yes & rrk:nat_ref=* & rrk:processed!=yes & rrk:level=2 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 3-5 continue]
+rrk:Radweg=yes & rrk:nat_ref=* & rrk:processed!=yes & rrk:level=0 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 1-5 continue]
 
 rrk:Radweg=yes & rrk:reg_ref=* & rrk:processed!=yes & rrk:level=4 { set name='${rrk:reg_ref}'; set rrk:processed=yes } [0x1010e level 5-5 continue]
 rrk:Radweg=yes & rrk:reg_ref=* & rrk:processed!=yes & rrk:level=3 { set name='${rrk:reg_ref}'; set rrk:processed=yes } [0x1010e level 4-5 continue]
@@ -32,18 +29,15 @@ rrk:Radweg=yes & rrk:loc_ref=* & rrk:processed!=yes & rrk:level=3 { set name='${
 rrk:Radweg=yes & rrk:loc_ref=* & rrk:processed!=yes & rrk:level=2 { set name='${rrk:loc_ref}'; set rrk:processed=yes } [0x1010e level 3-4 continue]
 rrk:Radweg=yes & rrk:loc_ref=* & rrk:processed!=yes & rrk:level=0 { set name='${rrk:loc_ref}'; set rrk:processed=yes } [0x1010e level 1-4 continue]
 
-rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=6 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 7-7 continue]
-rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=5 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 6-7 continue]
-rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=4 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 5-7 continue]
-rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=3 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 4-7 continue]
-rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=2 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 3-7 continue]
-rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=0 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 1-7 continue]
+rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=4 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 5-5 continue]
+rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=3 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 4-5 continue]
+rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=2 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 3-5 continue]
+rrk:Radweg=yes & rrk:int_name=* & rrk:processed!=yes & rrk:level=0 { name '${rrk:int_ref}'; set rrk:processed=yes } [0x1010e level 1-5 continue]
 
-rrk:Radweg=yes & rrk:nat_name=* & rrk:processed!=yes & rrk:level=5 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 6-6 continue]
-rrk:Radweg=yes & rrk:nat_name=* & rrk:processed!=yes & rrk:level=4 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 5-6 continue]
-rrk:Radweg=yes & rrk:nat_name=* & rrk:processed!=yes & rrk:level=3 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 4-6 continue]
-rrk:Radweg=yes & rrk:nat_name=* & rrk:processed!=yes & rrk:level=2 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 3-6 continue]
-rrk:Radweg=yes & rrk:nat_name=* & rrk:processed!=yes & rrk:level=0 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 1-6 continue]
+rrk:Radweg=yes & rrk:nat_name=* & rrk:processed!=yes & rrk:level=4 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 5-5 continue]
+rrk:Radweg=yes & rrk:nat_name=* & rrk:processed!=yes & rrk:level=3 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 4-5 continue]
+rrk:Radweg=yes & rrk:nat_name=* & rrk:processed!=yes & rrk:level=2 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 3-5 continue]
+rrk:Radweg=yes & rrk:nat_name=* & rrk:processed!=yes & rrk:level=0 { name '${rrk:nat_ref}'; set rrk:processed=yes } [0x1010e level 1-5 continue]
 
 rrk:Radweg=yes & rrk:reg_name=* & rrk:processed!=yes & rrk:level=4 { set name='${rrk:reg_ref}'; set rrk:processed=yes } [0x1010e level 5-5 continue]
 rrk:Radweg=yes & rrk:reg_name=* & rrk:processed!=yes & rrk:level=3 { set name='${rrk:reg_ref}'; set rrk:processed=yes } [0x1010e level 4-5 continue]
@@ -59,7 +53,6 @@ rrk:Radweg=yes & rrk:loc_name=* & rrk:processed!=yes & rrk:level=3 { set name='$
 rrk:Radweg=yes & rrk:loc_name=* & rrk:processed!=yes & rrk:level=2 { set name='${rrk:loc_ref}'; set rrk:processed=yes } [0x1010e level 3-4 continue]
 rrk:Radweg=yes & rrk:loc_name=* & rrk:processed!=yes & rrk:level=0 { set name='${rrk:loc_ref}'; set rrk:processed=yes } [0x1010e level 1-4 continue]
 
-rrk:Radweg=yes & rrk:int_ref=* & rrk:processed_ov!=yes & rrk:level=6 { name '${rrk:int_ref}'; set rrk:processed_ov=yes } [0x1010d level 6 continue]
 rrk:Radweg=yes & rrk:int_ref=* & rrk:processed_ov!=yes & rrk:level=5 { name '${rrk:int_ref}'; set rrk:processed_ov=yes } [0x1010d level 5 continue]
 rrk:Radweg=yes & rrk:int_ref=* & rrk:processed_ov!=yes & rrk:level=4 { name '${rrk:int_ref}'; set rrk:processed_ov=yes } [0x1010d level 4 continue]
 rrk:Radweg=yes & rrk:int_ref=* & rrk:processed_ov!=yes & rrk:level=3 { name '${rrk:int_ref}'; set rrk:processed_ov=yes } [0x1010d level 3 continue]
@@ -86,7 +79,6 @@ rrk:Radweg=yes & rrk:loc_ref=* & rrk:processed_ov!=yes & rrk:level=3 { set name=
 rrk:Radweg=yes & rrk:loc_ref=* & rrk:processed_ov!=yes & rrk:level=2 { set name='${rrk:loc_ref}'; set rrk:processed_ov=yes } [0x1010d level 2 continue]
 rrk:Radweg=yes & rrk:loc_ref=* & rrk:processed_ov!=yes & rrk:level=0 { set name='${rrk:loc_ref}'; set rrk:processed_ov=yes } [0x1010d level 0 continue]
 
-rrk:Radweg=yes & rrk:int_name=* & rrk:processed_ov!=yes & rrk:level=6 { name '${rrk:int_ref}'; set rrk:processed_ov=yes } [0x1010d level 6 continue]
 rrk:Radweg=yes & rrk:int_name=* & rrk:processed_ov!=yes & rrk:level=5 { name '${rrk:int_ref}'; set rrk:processed_ov=yes } [0x1010d level 5 continue]
 rrk:Radweg=yes & rrk:int_name=* & rrk:processed_ov!=yes & rrk:level=4 { name '${rrk:int_ref}'; set rrk:processed_ov=yes } [0x1010d level 4 continue]
 rrk:Radweg=yes & rrk:int_name=* & rrk:processed_ov!=yes & rrk:level=3 { name '${rrk:int_ref}'; set rrk:processed_ov=yes } [0x1010d level 3 continue]
