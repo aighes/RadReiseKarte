@@ -99,11 +99,6 @@ famid=1010
 codepage=1256
 GenerateMap
 
-name=MiddelAsia
-famid=1011
-codepage=855
-GenerateMap
-
 name=NewZealand
 famid=1008
 codepage=1252
