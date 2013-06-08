@@ -1121,7 +1121,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF7816"
 "2 c #666666"
-String1=0x02,Kraftstraﬂe
+String1=0x02,Kraftstrasse
 String2=0x04,motorway
 ExtendedLabels=N
 [end]
@@ -1148,7 +1148,7 @@ BorderWidth=2
 Xpm="0 0 2 0"
 "1 c #FCFC32"
 "2 c #CC2929"
-String1=0x02,Schnellstraﬂe
+String1=0x02,Schnellstrasse
 String2=0x04,highway
 ExtendedLabels=N
 [end]
@@ -1162,7 +1162,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF0A0A"
 "2 c #666666"
-String1=0x02,Hauptstraﬂe
+String1=0x02,Hauptstrasse
 String2=0x04,main road
 ExtendedLabels=N
 [end]
@@ -1176,7 +1176,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FFC213"
 "2 c #666666"
-String1=0x02,Regionalstraﬂe
+String1=0x02,Regionalstrasse
 String2=0x04,regional road
 ExtendedLabels=N
 [end]
@@ -1190,7 +1190,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FCE832"
 "2 c #666666"
-String1=0x02,Kommunalstraﬂe
+String1=0x02,Kommunalstrasse
 String2=0x04,local road
 ExtendedLabels=N
 [end]
@@ -1428,7 +1428,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF7816"
 "2 c #666666"
-String1=0x02,Kraftstraﬂe
+String1=0x02,Kraftstrasse
 String2=0x04,motorway
 ExtendedLabels=N
 [end]
@@ -1455,7 +1455,7 @@ BorderWidth=2
 Xpm="0 0 2 0"
 "1 c #FCFC32"
 "2 c #CC2929"
-String1=0x02,Schnellstraﬂe
+String1=0x02,Schnellstrasse
 String2=0x04,highway
 ExtendedLabels=N
 [end]
@@ -1469,7 +1469,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FF0A0A"
 "2 c #666666"
-String1=0x02,Hauptstraﬂe
+String1=0x02,Hauptstrasse
 String2=0x04,main road
 ExtendedLabels=N
 [end]
@@ -1483,7 +1483,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FFC213"
 "2 c #666666"
-String1=0x02,Regionalstraﬂe
+String1=0x02,Regionalstrasse
 String2=0x04,regional road
 ExtendedLabels=N
 [end]
@@ -1497,7 +1497,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FCE832"
 "2 c #666666"
-String1=0x02,Kommunalstraﬂe
+String1=0x02,Kommunalstrasse
 String2=0x04,local road
 ExtendedLabels=N
 [end]
@@ -1525,7 +1525,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #E4E4E4"
 "2 c #8C8C8C"
-String1=0x02,Ortsstraﬂe
+String1=0x02,Ortsstrasse
 String2=0x04,residential road
 ExtendedLabels=N
 [end]
@@ -1538,7 +1538,7 @@ LineWidth=3
 Xpm="0 0 2 0"
 "1 c #333131"
 "2 c #FFFFFF"
-String1=0x02,Teerweg
+String1=0x02,befestigter Weg
 ExtendedLabels=N
 [end]
 
@@ -1654,7 +1654,7 @@ Xpm="32 2 2  1"
 "!!  !!  !!  !!  !!  !!  !!  !!  "
 "!!  !!  !!  !!  !!  !!  !!  !!  "
 ;12345678901234567890123456789012
-String1=0x02,Fuﬂweg
+String1=0x02,Fussweg
 ExtendedLabels=N
 [end]
 
@@ -1794,14 +1794,14 @@ ExtendedLabels=N
 [_line]
 Type=0x1001b
 UseOrientation=N
-Xpm="32 3 2  1"
-"! c #79B8FF"
+Xpm="32 2 2  1"
+"! c #A16ACC"
 "  c none"
-"            !!!!!!!!!!!!!!!!!!!!"
-"            !!!!!!!!!!!!!!!!!!!!"
-"            !!!!!!!!!!!!!!!!!!!!"
+"   !!!!!   !!!!!   !!!!!   !!!!!"
+"   !!!!!   !!!!!   !!!!!   !!!!!"
 ;12345678901234567890123456789012
-String1=0x02,Wadi
+String1=0x02,F‰hre
+String2=0x04,ferry
 ExtendedLabels=N
 [end]
 
@@ -1851,7 +1851,7 @@ Xpm="32 5 2  1"
 "!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
-String1=0x02,Fluﬂ
+String1=0x02,Fluss
 String2=0x04,river
 ExtendedLabels=N
 [end]
@@ -1890,6 +1890,21 @@ Xpm="32 6 2  1"
 "   !  !  !                      "
 "   !  !  !                      "
 ;12345678901234567890123456789012
+ExtendedLabels=N
+[end]
+
+
+[_line]
+Type=0x10101
+UseOrientation=N
+Xpm="32 3 2  1"
+"! c #79B8FF"
+"  c none"
+"            !!!!!!!!!!!!!!!!!!!!"
+"            !!!!!!!!!!!!!!!!!!!!"
+"            !!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x02,Wadi
 ExtendedLabels=N
 [end]
 
@@ -1950,8 +1965,6 @@ Xpm="32 9 2  1"
 "                                "
 "   !!!!!   !!!!!   !!!!!   !!!!!"
 ;12345678901234567890123456789012
-String1=0x02,Tunnel
-String2=0x04,tunnel
 ExtendedLabels=N
 [end]
 
@@ -1972,8 +1985,6 @@ Xpm="32 9 2  1"
 "                                "
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
-String1=0x02,Br¸cke
-String2=0x04,bridge
 ExtendedLabels=N
 [end]
 
@@ -2036,7 +2047,7 @@ Xpm="32 1 2  1"
 "  c none"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
-String1=0x02,Seestraﬂe
+String1=0x02,Seestrasse
 ExtendedLabels=N
 [end]
 
