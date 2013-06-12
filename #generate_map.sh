@@ -1,6 +1,6 @@
 #!/bin/bash
 
-heute=`date +"%Y%m%d"`
+heute=`date +%Y%m%d`
 output=/media/D/RadReiseKarte
 windows=/media/D/Garmin
 mkgmap=./bin/mkgmap.jar
@@ -8,8 +8,8 @@ threads=4
 
 GenerateMap()
 {
-echo $TIME generating $name >> log.log
-echo $TIME generating $name
+echo `date +%T` generating $name >> log.log
+echo `date +%T` generating $name
 
 rm ./maps/$name/*.tmp
 
@@ -17,8 +17,8 @@ echo $famid>>mkgmap_error.log
 
 java -Xmx10000M -XX:+UseCompressedOops -jar $mkgmap --read-config=./resources/style_rrk/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --product-version=$heute --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name $famid*.o5m ./resources/rrk_typ.txt 2>> mkgmap_error.log
 
-echo $TIME compressing $name >> log.log
-echo $TIME compressing $name
+echo `date +%T` compressing $name >> log.log
+echo `date +%T` compressing $name
 
 echo "Map data (c) OpenStreetMap and contributors" > ./maps/$name/$famid"0000_license.txt"
 echo "http://www.openstreetmap.org/" >> ./maps/$name/$famid"0000_license.txt"
@@ -48,8 +48,8 @@ rm ./maps/$name/*.typ
 rm ./maps/$name/*.tdb
 rm ./maps/$name/Install.exe
 
-echo $TIME $name finished >> log.log
-echo $TIME $name finished
+echo `date +%T` $name finished >> log.log
+echo `date +%T` $name finished
 return
 }
 
@@ -64,12 +64,10 @@ rm temp
 
 read -p "Update OSM-data? y/n : " update
 if [ "$update" == "y" ]; then
-	echo $TIME updating planet >> log.log
-	echo $TIME updating planet
+	echo `date +%T` updating planet >> log.log
+	echo `date +%T` updating planet
 	mv ./data/planet_srtm.o5m ./data/planet_srtm_old.o5m
 	osmupdate --verbose ./data/planet_srtm_old.o5m ./data/planet_srtm.o5m
-	echo $TIME copying planet >> log.log
-	echo $TIME copying planet
 	split=y
 fi
 if [ "$split" != "y" ]; then
@@ -78,8 +76,8 @@ fi
 
 if [ "$split" == "y" ]; then
 	rm *.o5m
-	echo $TIME splitting planet >> log.log
-	echo $TIME splitting planet
+	echo `date +%T` splitting planet >> log.log
+	echo `date +%T` splitting planet
 	java -Xmx10000M -XX:+UseCompressedOops -XX:+UseParallelGC -jar ./bin/splitter.jar --status-freq=0 --output=o5m --max-areas=2048 --max-threads=$threads --overlap=0 --keep-complete --split-file=resources/areas.list --description=RadReiseKarte ./data/planet_srtm.o5m > splitter.log
 	rm template.args
 fi
@@ -134,6 +132,6 @@ famid=1000
 codepage=1252
 GenerateMap
 
-echo $TIME finished >> log.log
-echo $TIME finished
+echo `date +%T` finished >> log.log
+echo `date +%T` finished
 echo "" >>log.log
