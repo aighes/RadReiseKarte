@@ -66,7 +66,7 @@ read -p "Update OSM-data? y/n : " update
 if [ "$update" == "y" ]; then
 	echo `date +%T` updating planet >> log.log
 	echo `date +%T` updating planet
-	mv ./data/planet_srtm.o5m ./data/planet_old.o5m
+	mv ./data/planet.o5m ./data/planet_old.o5m
 	osmupdate --verbose ./data/planet_old.o5m ./data/planet.o5m
 	split=y
 fi
