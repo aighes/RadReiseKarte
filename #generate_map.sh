@@ -87,24 +87,14 @@ echo "Map created with mkgmap-r$version and data of $heute" >> resources/license
 
 echo >mkgmap_error.log
 
+name=Germany-Alps
+famid=1000
+codepage=1252
+GenerateMap
+
 name=Turkey
 famid=1001
 codepage=1254
-GenerateMap
-
-name=Oman
-famid=1010
-codepage=1256
-GenerateMap
-
-name=NewZealand
-famid=1008
-codepage=1252
-GenerateMap
-
-name=Patagonia
-famid=1005
-codepage=1252
 GenerateMap
 
 name=Scandinavia
@@ -122,14 +112,29 @@ famid=1004
 codepage=1252
 GenerateMap
 
+name=Patagonia
+famid=1005
+codepage=1252
+GenerateMap
+
+name=MiddleAsia
+famid=1006
+codepage=1251
+GenerateMap
+
+name=NewZealand
+famid=1008
+codepage=1252
+GenerateMap
+
 name=GreatBritain
 famid=1009
 codepage=1252
 GenerateMap
 
-name=Germany-Alps
-famid=1000
-codepage=1252
+name=Oman
+famid=1010
+codepage=1256
 GenerateMap
 
 echo `date +%T` finished >> log.log
