@@ -2,3 +2,4 @@ name:en=* { set rrk:name='${name:en}' }
 int_name=* & rrk:name!=* { set rrk:name='${int_name}' }
 ( mkgmap:country=OMN | mkgmap:country=TJK | mkgmap:country=KGZ | mkgmap:country=RUS ) & rrk:name=* { set name='${name} (${rrk:name})' }
 rrk:name=* { delete rrk:name }
+highway=* & name=* { set mkgmap:name='${name}' }
