@@ -1,8 +1,8 @@
 #!/bin/bash
 
 heute=`date +%Y%m%d`
-output=/media/D/RadReiseKarte
-windows=/media/D/Garmin
+output=/media/aighes/Daten/RadReiseKarte
+windows=/media/aighes/Daten/Garmin
 mkgmap=./bin/mkgmap.jar
 threads=4
 
