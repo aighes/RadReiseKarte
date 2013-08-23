@@ -10,6 +10,8 @@
 /maps/Scandinavia/*
 /maps/Turkey/*
 
+/osmupdate_temp/*
+
 *.jar
 *.o5m
 *.zip
