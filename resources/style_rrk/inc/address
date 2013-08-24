@@ -115,5 +115,4 @@ mkgmap:street!=* & addr:housename=* { set mkgmap:street='${addr:housename}' }
 
 mkgmap:housenumber!=* & addr:housenumber=* { set mkgmap:housenumber='${addr:housenumber}' }
 
-mkgmap:phone!=* & cantact:phone=* { set mkgmap:phone='${contact:phone}' }
-mkgmap:phone!=* & phone=* { set mkgmap:phone='${phone}' }
+include "inc/phone";

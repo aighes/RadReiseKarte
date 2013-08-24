@@ -1,0 +1,23 @@
+# reformat phone numbers 
+
+# get the number to use
+phone=* | contact:phone=* | addr:phone=* {set rrk:phone='${phone}' | '${contact:phone}' | '${addr:phone}'} 
+
+# only use the first number if there is a list
+rrk:phone=* {set rrk:phone='${rrk:phone|part:}'} 
+
+# country-specific rules
+rrk:phone=* & (mkgmap:country=GBR | mkgmap:country=IMN) {set rrk:phone='${rrk:phone|subst:(0)=>|subst:^00~>+|subst:[()]~>|subst:^0~>+44|subst:^+440~>+44}'}
+rrk:phone=* & mkgmap:country=LUX {set rrk:phone='${rrk:phone|subst:^00~>+}'}
+rrk:phone=* & mkgmap:country=IRL {set rrk:phone='${rrk:phone|subst:^00~>+|subst:[-()]~>|subst:^0~>+353|subst:^+3530~>+353}'}
+rrk:phone=* & mkgmap:country=NLD {set rrk:phone='${rrk:phone|subst:^00~>+|subst:[-()]~>|subst:^0~>+31|subst:^+310~>+31}'}
+rrk:phone=* & mkgmap:country=BEL {set rrk:phone='${rrk:phone|subst:^00~>+|subst:[-()]~>|subst:^0~>+32|subst:^+320~>+32}'}
+rrk:phone=* & mkgmap:country=FRA {set rrk:phone='${rrk:phone|subst:^00~>+|subst:^0~>+33}'}
+rrk:phone=* & mkgmap:country=DEU {set rrk:phone='${rrk:phone|subst:^00~>+|subst:[-()]~>|subst:^0~>+49|subst:^+490~>+49}'} 
+
+# lose all non-digits (except for +)
+rrk:phone=* {set rrk:phone='${rrk:phone|subst:[^0-9+]~>}'} 
+
+# wrap up
+rrk:phone=* {echo '(${mkgmap:country}) Phone number ${phone} reformatted to ${rrk:phone}' }
+rrk:phone=* {add mkgmap:phone='${rrk:phone}'; set phone='${rrk:phone}'; delete contact:phone; delete addr:phone;} 
