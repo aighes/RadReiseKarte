@@ -112,11 +112,6 @@ famid=1004
 codepage=1252
 GenerateMap
 
-name=Patagonia
-famid=1005
-codepage=1252
-GenerateMap
-
 name=MiddleAsia
 famid=1006
 codepage=1251
