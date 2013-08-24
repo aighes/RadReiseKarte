@@ -97,9 +97,8 @@ barrier=bollard & mkgmap:line2poi!=true [0x900b level 0]
 highway=stile | barrier=stile & mkgmap:line2poi!=true [0x1c07 level 0]
 ( barrier=lift_gate | barrier=gate:lift | barrier=gate | highway=gate | barrier=footgate | highway=cattle_grid | barrier=cattle_grid ) & mkgmap:line2poi!=true & mkgmap:area2poi!=true [0x9009 level 0]
 ( barrier=chicane | barrier=cycle_barrier | barrier=kissing_gate ) & mkgmap:line2poi!=true & mkgmap:area2poi!=true [0x900a level 0]
-barrier=border control [0x900f level 2]
+barrier=border_control [0x900f level 2]
 barrier=* & mkgmap:line2poi!=true & mkgmap:area2poi!=true { set name='${barrier}' } [0x900c level 0]
-
 
 amenity=fuel & shop=* & mkgmap:line2poi!=true [0x4400 level 0]
 amenity=fuel & mkgmap:line2poi!=true [0x2f01 level 2]
