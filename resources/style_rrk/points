@@ -172,7 +172,7 @@ amenity=ferry_terminal & mkgmap:line2poi!=true [0x2f16 level 0]
 hazard=*  & ( mkgmap:line2poi!=true | mkgmap:line2poitype=mid ) [0x9001 level 0]
 power=tower | power=pole & mkgmap:line2poi!=true { delete name ; delete ref } [0x9002 level 0]
 
-addr:housenumber=* [0x9000 level 0]
+#addr:housenumber=* [0x9000 level 0]
 
 highway=* & canoe=portage & ( mkgmap:line2poi!=true | mkgmap:line2poitype=mid ) { set name='${name}, max. (${maxweight}t)' | '${name}' | 'max. ${maxweight}t' } [0x9103 level 0]
 waterway=lock_gate & mkgmap:line2poi!=true [0x9101 level 0]

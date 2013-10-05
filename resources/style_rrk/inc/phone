@@ -19,5 +19,4 @@ rrk:phone=* & mkgmap:country=DEU {set rrk:phone='${rrk:phone|subst:^00~>+|subst:
 rrk:phone=* {set rrk:phone='${rrk:phone|subst:[^0-9+]~>}'} 
 
 # wrap up
-rrk:phone=* {echo '(${mkgmap:country}) Phone number ${phone} reformatted to ${rrk:phone}' }
 rrk:phone=* {add mkgmap:phone='${rrk:phone}'; set phone='${rrk:phone}'; delete contact:phone; delete addr:phone;} 
