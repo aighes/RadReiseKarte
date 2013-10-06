@@ -74,10 +74,10 @@ man_made=tower & mkgmap:line2poi!=true [0x900e level 0]
 man_made=water_tower & mkgmap:line2poi!=true [0x900e level 0]
 natural=spring & mkgmap:line2poi!=true [0x161d level 0]
 tourism=picnic_site & mkgmap:line2poi!=true [0x900d level 0]
-natural=bay & mkgmap:line2poi!=true [0x1e04 level 5]
-natural=sea & mkgmap:line2poi!=true [0x1e04 level 7]
+natural=bay & mkgmap:line2poi!=true & name=* [0x1e04 level 5]
+natural=sea & mkgmap:line2poi!=true & name=* [0x1e04 level 7]
 place=country & mkgmap:line2poi!=true & name:en=* { set name='${name:en}'} [0x1500 level 8-7]
-place=country & mkgmap:line2poi!=true [0x1500 level 8-7]
+place=country & mkgmap:line2poi!=true & name=* [0x1500 level 8-7]
 
 #information
 information=office & mkgmap:line2poi!=true [0x4c00 level 0]
