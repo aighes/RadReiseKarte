@@ -133,7 +133,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x0b
-String1=0x02,Gebäude
+String1=0x02,Gebaeude
 String2=0x04,building
 ExtendedLabels=N
 Xpm="0 0 1 0"
@@ -261,7 +261,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x13
-String1=0x02,Fußgängerzone
+String1=0x02,Fussgaengerzone
 String2=0x04,pedestrian area
 ExtendedLabels=N
 Xpm="0 0 1 0"
@@ -894,7 +894,7 @@ Xpm="0 0 1 0"
 
 [_polygon]
 Type=0x46
-String1=0x02,Fluß
+String1=0x02,Fluss
 String2=0x04,river
 ExtendedLabels=N
 Xpm="0 0 1 0"
@@ -974,7 +974,7 @@ Xpm="32 32 2 1"
 
 [_polygon]
 Type=0x4f
-String1=0x02,Gestrüpp
+String1=0x02,Gestruepp
 String2=0x04,scrub
 ExtendedLabels=N
 Xpm="32 32 4 1"
@@ -1347,7 +1347,7 @@ Xpm="32 2 2  1"
 "!!  !!  !!  !!  !!  !!  !!  !!  "
 "!!  !!  !!  !!  !!  !!  !!  !!  "
 ;12345678901234567890123456789012
-String1=0x02,Fußweg
+String1=0x02,Fussweg
 ExtendedLabels=N
 [end]
 
@@ -1378,7 +1378,7 @@ Xpm="32 2 2  1"
 "   !!!!!   !!!!!   !!!!!   !!!!!"
 "   !!!!!   !!!!!   !!!!!   !!!!!"
 ;12345678901234567890123456789012
-String1=0x02,Fähre
+String1=0x02,Faehre
 String2=0x04,ferry
 ExtendedLabels=N
 [end]
@@ -1405,6 +1405,7 @@ Xpm="32 1 2  1"
 "!!   !!!!!!!!   !!   !!!!!!!!   "
 ;12345678901234567890123456789012
 ExtendedLabels=N
+
 [end]
 
 
@@ -1800,7 +1801,7 @@ Xpm="32 2 2  1"
 "   !!!!!   !!!!!   !!!!!   !!!!!"
 "   !!!!!   !!!!!   !!!!!   !!!!!"
 ;12345678901234567890123456789012
-String1=0x02,Fähre
+String1=0x02,Faehre
 String2=0x04,ferry
 ExtendedLabels=N
 [end]
@@ -1873,6 +1874,7 @@ Xpm="32 7 2  1"
 ;12345678901234567890123456789012
 String1=0x02,Kanal
 String2=0x04,canal
+
 ExtendedLabels=N
 [end]
 
@@ -1943,7 +1945,7 @@ Xpm="32 7 2  1"
 "!!     !!       !!     !!       "
 "!       !       !       !       "
 ;12345678901234567890123456789012
-String1=0x02,unbefestigte Straße
+String1=0x02,unbefestigte Strasse
 String2=0x04,unpaved road
 ExtendedLabels=N
 [end]
@@ -2449,7 +2451,7 @@ DayXpm="11 13 5 1"   Colormode=16
 [_point]
 Type=0x016
 SubType=0x03
-String1=0x02,Höhle
+String1=0x02,Hoehle
 ExtendedLabels=N
 DayXpm="10 9 6 1"   Colormode=16
 "!	c #626262"
@@ -2909,7 +2911,7 @@ DayXpm="16 16 126 2"   Colormode=16
 [_point]
 Type=0x01b
 SubType=0x04
-String1=0x02,Kläranlage
+String1=0x02,Klaeranlage
 ExtendedLabels=N
 DayXpm="16 16 5 1"   Colormode=0
 "!	c #0030B4"
@@ -3292,7 +3294,7 @@ DayXpm="7 16 26 2"   Colormode=16
 [_point]
 Type=0x01b
 SubType=0x0f
-String1=0x02,Hügelgrab
+String1=0x02,Huegelgrab
 ExtendedLabels=N
 DayXpm="8 9 7 1"   Colormode=16
 "!	c #7B3020"
@@ -3362,7 +3364,7 @@ DayXpm="11 11 23 2"   Colormode=16
 [_point]
 Type=0x01b
 SubType=0x11
-String1=0x02,Schloß
+String1=0x02,Schloss
 ExtendedLabels=N
 DayXpm="10 13 4 1"   Colormode=16
 "!	c #000000"
@@ -3459,7 +3461,7 @@ DayXpm="11 11 22 2"   Colormode=16
 [_point]
 Type=0x01b
 SubType=0x14
-String1=0x02,Schloßruine
+String1=0x02,Schlossruine
 ExtendedLabels=N
 DayXpm="11 13 3 1"   Colormode=16
 "!	c #838383"
@@ -3485,7 +3487,7 @@ DayXpm="11 13 3 1"   Colormode=16
 [_point]
 Type=0x01b
 SubType=0x15
-String1=0x02,Römerkastell
+String1=0x02,Roemerkastell
 ExtendedLabels=N
 DayXpm="11 11 2 1"   Colormode=16
 "!	c #000000"
@@ -3696,7 +3698,7 @@ DayXpm="16 16 127 2"   Colormode=16
 [_point]
 Type=0x01b
 SubType=0x1a
-String1=0x02,Wassermühle
+String1=0x02,Wassermuehle
 ExtendedLabels=N
 DayXpm="16 16 6 1"   Colormode=16
 "!	c #BD3041"
@@ -3728,7 +3730,7 @@ DayXpm="16 16 6 1"   Colormode=16
 [_point]
 Type=0x01b
 SubType=0x1b
-String1=0x02,Mühle
+String1=0x02,Muehle
 ExtendedLabels=N
 DayXpm="16 16 68 2"   Colormode=16
 "!!	c #FFFFFF"
@@ -4761,7 +4763,7 @@ DayXpm="16 16 4 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x02
-String1=0x02,Sehenswürdigkeit
+String1=0x02,Sehenswuerdigkeit
 ExtendedLabels=N
 DayXpm="16 16 33 2"   Colormode=16
 "!!	c #313131"
@@ -4820,7 +4822,7 @@ DayXpm="16 16 33 2"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x03
-String1=0x02,Bücherei
+String1=0x02,Buecherei
 ExtendedLabels=N
 DayXpm="8 16 12 1"   Colormode=16
 "!	c #000000"
@@ -4858,7 +4860,7 @@ DayXpm="8 16 12 1"   Colormode=16
 [_point]
 Type=0x02c
 SubType=0x04
-String1=0x02,Sehenswürdigkeit
+String1=0x02,Sehenswuerdigkeit
 ExtendedLabels=N
 DayXpm="4 14 2 1"   Colormode=16
 "!	c #7B6500"
@@ -5428,7 +5430,7 @@ DayXpm="11 10 5 1"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x03
-String1=0x02,Getränkemarkt
+String1=0x02,Getraenkemarkt
 ExtendedLabels=N
 DayXpm="16 16 7 1"   Colormode=16
 "!	c #396520"
@@ -5770,6 +5772,7 @@ DayXpm="11 16 75 2"   Colormode=16
 "?#	c #B8A410"
 "?%	c #9A7F09"
 "??	c #7F7F7F"
+
 "?$	c #9E9E9E"
 "?*	c #707070"
 "?=	c #6F6F6F"
@@ -5953,7 +5956,7 @@ DayXpm="16 16 66 2"   Colormode=16
 [_point]
 Type=0x02e
 SubType=0x10
-String1=0x02,Bäckerei
+String1=0x02,Baeckerei
 ExtendedLabels=N
 DayXpm="16 16 7 1"   Colormode=16
 "!	c #37290D"
@@ -6373,7 +6376,7 @@ DayXpm="16 13 119 2"   Colormode=16
 [_point]
 Type=0x02f
 SubType=0x16
-String1=0x02,Fähre
+String1=0x02,Faehre
 ExtendedLabels=N
 DayXpm="16 16 52 2"   Colormode=16
 "!!	c #F6F6F6"
@@ -6863,7 +6866,7 @@ DayXpm="11 13 21 2"   Colormode=16
 [_point]
 Type=0x048
 SubType=0x03
-String1=0x02,bewirtschaftete Berghütte
+String1=0x02,bewirtschaftete Berghuette
 ExtendedLabels=N
 DayXpm="11 12 4 1"   Colormode=16
 "!	c #FFFFFF"
@@ -7438,7 +7441,7 @@ DayXpm="11 14 3 1"   Colormode=16
 [_point]
 Type=0x090
 SubType=0x08
-String1=0x02,Bahnübergang
+String1=0x02,Bahnuebergang
 ExtendedLabels=N
 DayXpm="11 16 3 1"   Colormode=16
 "!	c #FF0000"
@@ -7676,7 +7679,7 @@ DayXpm="7 10 2 1"   Colormode=16
 [_point]
 Type=0x090
 SubType=0x0f
-String1=0x02,Grenzübergang
+String1=0x02,Grenzuebergang
 String2=0x04,boarder
 ExtendedLabels=N
 DayXpm="16 16 19 2"   Colormode=16

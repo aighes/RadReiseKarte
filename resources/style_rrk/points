@@ -177,3 +177,6 @@ power=tower | power=pole & mkgmap:line2poi!=true { delete name ; delete ref } [0
 highway=* & canoe=portage & ( mkgmap:line2poi!=true | mkgmap:line2poitype=mid ) { set name='${name}, max. (${maxweight}t)' | '${name}' | 'max. ${maxweight}t' } [0x9103 level 0]
 waterway=lock_gate & mkgmap:line2poi!=true [0x9101 level 0]
 waterway=* & (obstacle=lock | lock=yes) & ( mkgmap:line2poi!=true | mkgmap:line2poitype=mid ) { set name='${lock_name}' | 'Schleuse' } [0x9102 level 0]
+
+<finalize>
+include 'inc/compat_points';

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <Style id="transWhitePoly">
+    <LineStyle>
+      <width>1.5</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00ffffff</color>
+      <colorMode>normal</colorMode>
+    </PolyStyle>
+  </Style>
+
+  <Placemark>
+    <name>10200001</name>
+    <styleUrl>#transWhitePoly</styleUrl>
+      <description>
+        <![CDATA[10200001]]>
+      </description>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            2.153320,38.979492
+            2.153320,39.067383
+            3.691406,39.067383
+            3.691406,38.979492
+            2.153320,38.979492
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>10200002</name>
+    <styleUrl>#transWhitePoly</styleUrl>
+      <description>
+        <![CDATA[10200002]]>
+      </description>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            2.153320,39.067383
+            2.153320,40.166016
+            3.735352,40.166016
+            3.735352,39.067383
+            2.153320,39.067383
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</Document>
+</kml>

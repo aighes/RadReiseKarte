@@ -1,0 +1,7 @@
+Map data (c) OpenStreetMap and contributors
+http://www.openstreetmap.org/
+
+Map data licenced under Open Database License (ODbL) 1.0
+See http://opendatacommons.org/licenses/odbl/
+
+Map created with mkgmap-r2971

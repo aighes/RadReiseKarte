@@ -1,8 +1,8 @@
 #!/bin/bash
 
 heute=`date +%Y%m%d`
-output=/media/aighes/Daten/RadReiseKarte
-windows=/media/aighes/Daten/Garmin
+output=/media/Daten/RadReiseKarte
+windows=/media/Daten/Garmin
 mkgmap=./bin/mkgmap.jar
 threads=4
 
@@ -16,7 +16,7 @@ GenerateMap()
 	echo $famid>>mkgmap_error.log
 
 	java -Xmx10000M -XX:+UseCompressedOops -jar $mkgmap --read-config=./resources/style_rrk/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --product-version=$heute --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name $famid*.o5m ./resources/rrk_typ.txt 2>> mkgmap_error.log
-
+	
 	echo `date +%T` compressing $name >> log.log
 	echo `date +%T` compressing $name
 
@@ -68,6 +68,7 @@ if [ "$update" == "y" ]; then
 	echo `date +%T` updating planet
 	mv ./data/planet.o5m ./data/planet_old.o5m
 	osmupdate --verbose ./data/planet_old.o5m ./data/planet.o5m
+	rm ./data/planet_old.o5m
 	split=y
 fi
 if [ "$split" != "y" ]; then
@@ -78,7 +79,7 @@ if [ "$split" == "y" ]; then
 	rm *.o5m
 	echo `date +%T` splitting planet >> log.log
 	echo `date +%T` splitting planet
-	java -Xmx10000M -XX:+UseCompressedOops -XX:+UseParallelGC -jar ./bin/splitter.jar --status-freq=0 --output=o5m --max-areas=2048 --max-threads=$threads --overlap=0 --keep-complete --split-file=resources/areas.list --description=RadReiseKarte ./data/planet.o5m ./data/srtm.o5m> splitter.log
+	java -Xmx10000M -XX:+UseCompressedOops -XX:+UseParallelGC -jar ./bin/splitter.jar --status-freq=0 --output=o5m --max-areas=2048 --max-threads=$threads --overlap=0 --keep-complete --split-file=resources/areas.list --description=RadReiseKarte ./data/planet.o5m ./data/srtm.o5m > splitter.log
 	rm template.args
 fi
 

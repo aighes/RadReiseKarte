@@ -1,8 +1,8 @@
 #!/bin/bash
 
 heute=`date +%Y%m%d`
-output=/media/aighes/Daten/RadReiseKarte
-windows=/media/aighes/Daten/Garmin
+output=/media/Daten/RadReiseKarte
+windows=/media/Daten/Garmin
 mkgmap=./bin/mkgmap.jar
 threads=4
 
@@ -31,7 +31,7 @@ if [ "$split" == "y" ]; then
 	rm *.o5m
 	echo `date +%T` splitting planet >> log.log
 	echo `date +%T` splitting planet
-	java -Xmx10000M -XX:+UseCompressedOops -XX:+UseParallelGC -jar ./bin/splitter.jar --status-freq=0 --output=o5m --max-areas=2048 --max-threads=$threads --overlap=0 --keep-complete --split-file=resources/areas.list --description=RadReiseKarte ./data/planet.o5m ./data/srtm.o5m> splitter.log
+	java -Xmx10000M -XX:+UseCompressedOops -XX:+UseParallelGC -jar ./bin/splitter.jar --status-freq=0 --output=o5m --max-areas=2048 --max-threads=$threads --overlap=0 --keep-complete --split-file=resources/list/Mallorca.list --description=RadReiseKarte ./data/planet.o5m ./data/srtm.o5m> splitter.log
 	rm template.args
 fi
 
@@ -40,9 +40,9 @@ echo "Map created with mkgmap-r$version and data of $heute" >> resources/license
 
 echo >mkgmap_error.log
 
-name=Oman
-famid=1010
-codepage=1256
+name=Mallorca
+famid=1020
+codepage=1252
 
 echo `date +%T` generating $name >> log.log
 echo `date +%T` generating $name

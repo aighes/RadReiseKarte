@@ -68,4 +68,7 @@ contour_ext=elevation_medium & ele>0 { name '${ele|conv:m=>ft}'; } [0x21 level 2
 contour_ext=elevation_major & ele>0 { name '${ele|conv:m=>ft}'; } [0x22 level 4]
 contour_ext=elevation & ele>0 { name '${ele|conv:m=>ft}'; } [0x21 level 4]
 
+<finalize>
+include 'inc/compat_lines';
+
 

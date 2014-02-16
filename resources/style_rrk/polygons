@@ -86,3 +86,6 @@ landuse=wood [0x50 level 5]
 landuse=park [0x17 level 3]
 leisure=nature_reserve [0x14 level 5]
 natural_park=naturereserve [0x14 level 5]
+
+<finalize>
+include 'inc/compat_polygons';
