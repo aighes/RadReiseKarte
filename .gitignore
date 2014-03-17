@@ -1,15 +1,6 @@
 /densities-out.txt
-/maps/Australia/*
-/maps/BeNeLux/*
-/maps/Germany-Alps/*
-/maps/GreatBritain/*
-/maps/MiddleAsia/*
-/maps/NewZealand/*
-/maps/Oman/*
-/maps/Patagonia/*
-/maps/Poland-Czech/*
-/maps/Scandinavia/*
-/maps/Turkey/*
+/maps/*
+/data/sea/*
 
 /osmupdate_temp/*
 
