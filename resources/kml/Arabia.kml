@@ -12,1380 +12,1280 @@
   </Style>
 
   <Placemark>
-    <name>10110001</name>
+    <name>10100001</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110001]]>
+        <![CDATA[10100001]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -141.999986,54.499998
-            -141.999986,59.999986
-            -134.033203,59.999986
-            -134.033203,54.499998
-            -141.999986,54.499998
+            35.477815,34.233398
+            35.477815,37.584743
+            36.870117,37.584743
+            36.870117,34.233398
+            35.477815,34.233398
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110002</name>
+    <name>10100002</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110002]]>
+        <![CDATA[10100002]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -134.033203,45.000000
-            -134.033203,56.030273
-            -129.243164,56.030273
-            -129.243164,45.000000
-            -134.033203,45.000000
+            36.870117,34.233398
+            36.870117,37.584743
+            42.407227,37.584743
+            42.407227,34.233398
+            36.870117,34.233398
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110003</name>
+    <name>10100003</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110003]]>
+        <![CDATA[10100003]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -134.033203,56.030273
-            -134.033203,59.999986
-            -129.243164,59.999986
-            -129.243164,56.030273
-            -134.033203,56.030273
+            34.091434,29.038196
+            34.091434,31.904297
+            35.156250,31.904297
+            35.156250,29.038196
+            34.091434,29.038196
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110004</name>
+    <name>10100004</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110004]]>
+        <![CDATA[10100004]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -117.773438,45.000000
-            -117.773438,46.713867
-            -114.785156,46.713867
-            -114.785156,45.000000
-            -117.773438,45.000000
+            34.091434,31.904297
+            34.091434,34.200161
+            35.156250,34.200161
+            35.156250,31.904297
+            34.091434,31.904297
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110005</name>
+    <name>10100005</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110005]]>
+        <![CDATA[10100005]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -117.773438,46.713867
-            -117.773438,47.988281
-            -114.785156,47.988281
-            -114.785156,46.713867
-            -117.773438,46.713867
+            35.156250,29.003906
+            35.156250,34.233398
+            35.551758,34.233398
+            35.551758,29.003906
+            35.156250,29.003906
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110006</name>
+    <name>10100006</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110006]]>
+        <![CDATA[10100006]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -114.785156,45.000000
-            -114.785156,47.988281
-            -112.060547,47.988281
-            -112.060547,45.000000
-            -114.785156,45.000000
+            35.551758,29.038196
+            35.551758,34.233398
+            42.407227,34.233398
+            42.407227,29.038196
+            35.551758,29.038196
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110007</name>
+    <name>10100007</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110007]]>
+        <![CDATA[10100007]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -112.060547,45.000000
-            -112.060547,47.988281
-            -109.999988,47.988281
-            -109.999988,45.000000
-            -112.060547,45.000000
+            64.423828,37.617188
+            64.423828,37.836914
+            78.706055,37.836914
+            78.706055,37.617188
+            64.423828,37.617188
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110008</name>
+    <name>10100008</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110008]]>
+        <![CDATA[10100008]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -120.102539,45.000000
-            -120.102539,47.988281
-            -117.773438,47.988281
-            -117.773438,45.000000
-            -120.102539,45.000000
+            69.803245,37.836914
+            69.803245,38.545039
+            71.773875,38.545039
+            71.773875,37.836914
+            69.803245,37.836914
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110009</name>
+    <name>10100009</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110009]]>
+        <![CDATA[10100009]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -129.243164,45.000000
-            -129.243164,47.988281
-            -123.837891,47.988281
-            -123.837891,45.000000
-            -129.243164,45.000000
+            43.989258,37.617188
+            43.989258,40.034180
+            50.449219,40.034180
+            50.449219,37.617188
+            43.989258,37.617188
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110010</name>
+    <name>10100010</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110010]]>
+        <![CDATA[10100010]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.837891,45.000000
-            -123.837891,46.889648
-            -123.090820,46.889648
-            -123.090820,45.000000
-            -123.837891,45.000000
+            58.754883,37.617188
+            58.754883,37.836206
+            60.322924,37.836206
+            60.322924,37.617188
+            58.754883,37.617188
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110011</name>
+    <name>10100011</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110011]]>
+        <![CDATA[10100011]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.837891,46.889648
-            -123.837891,47.988281
-            -123.090820,47.988281
-            -123.090820,46.889648
-            -123.837891,46.889648
+            50.449219,37.617188
+            50.449219,38.452148
+            58.754883,38.452148
+            58.754883,37.617188
+            50.449219,37.617188
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110012</name>
+    <name>10100012</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110012]]>
+        <![CDATA[10100012]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.090820,45.000000
-            -123.090820,45.571289
-            -120.102539,45.571289
-            -120.102539,45.000000
-            -123.090820,45.000000
+            42.447138,12.108951
+            42.447138,16.435547
+            54.740646,16.435547
+            54.740646,12.108951
+            42.447138,12.108951
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110013</name>
+    <name>10100013</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110013]]>
+        <![CDATA[10100013]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -121.948242,45.571289
-            -121.948242,47.988281
-            -120.102539,47.988281
-            -120.102539,45.571289
-            -121.948242,45.571289
+            42.407227,30.498047
+            42.407227,37.617188
+            50.097656,37.617188
+            50.097656,30.498047
+            42.407227,30.498047
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110014</name>
+    <name>10100014</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110014]]>
+        <![CDATA[10100014]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.090820,45.571289
-            -123.090820,47.065430
-            -121.948242,47.065430
-            -121.948242,45.571289
-            -123.090820,45.571289
+            50.097656,30.498047
+            50.097656,37.617188
+            60.336914,37.617188
+            60.336914,30.498047
+            50.097656,30.498047
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110015</name>
+    <name>10100015</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110015]]>
+        <![CDATA[10100015]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.090820,47.065430
-            -123.090820,47.548828
-            -121.948242,47.548828
-            -121.948242,47.065430
-            -123.090820,47.065430
+            42.407227,16.435547
+            42.407227,30.498047
+            48.383789,30.498047
+            48.383789,16.435547
+            42.407227,16.435547
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110016</name>
+    <name>10100016</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110016]]>
+        <![CDATA[10100016]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.090820,47.548828
-            -123.090820,47.988281
-            -122.343750,47.988281
-            -122.343750,47.548828
-            -123.090820,47.548828
+            48.383789,25.751953
+            48.383789,30.498047
+            56.162109,30.498047
+            56.162109,25.751953
+            48.383789,25.751953
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110017</name>
+    <name>10100017</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110017]]>
+        <![CDATA[10100017]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,47.548828
-            -122.343750,47.636719
-            -121.948242,47.636719
-            -121.948242,47.548828
-            -122.343750,47.548828
+            56.162109,25.751953
+            56.162109,30.498047
+            60.336914,30.498047
+            60.336914,25.751953
+            56.162109,25.751953
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110018</name>
+    <name>10100018</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110018]]>
+        <![CDATA[10100018]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,47.636719
-            -122.343750,47.988281
-            -121.948242,47.988281
-            -121.948242,47.636719
-            -122.343750,47.636719
+            48.383789,16.435547
+            48.383789,18.940430
+            52.338867,18.940430
+            52.338867,16.435547
+            48.383789,16.435547
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110019</name>
+    <name>10100019</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110019]]>
+        <![CDATA[10100019]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -129.243164,47.988281
-            -129.243164,50.361328
-            -125.419922,50.361328
-            -125.419922,47.988281
-            -129.243164,47.988281
+            48.383789,18.940430
+            48.383789,25.751953
+            52.338867,25.751953
+            52.338867,18.940430
+            48.383789,18.940430
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110020</name>
+    <name>10100020</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110020]]>
+        <![CDATA[10100020]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -129.243164,50.361328
-            -129.243164,52.514648
-            -125.419922,52.514648
-            -125.419922,50.361328
-            -129.243164,50.361328
+            54.975586,16.473119
+            54.975586,18.457031
+            60.321829,18.457031
+            60.321829,16.473119
+            54.975586,16.473119
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110021</name>
+    <name>10100021</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110021]]>
+        <![CDATA[10100021]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -129.243164,52.514648
-            -129.243164,55.019531
-            -125.419922,55.019531
-            -125.419922,52.514648
-            -129.243164,52.514648
+            54.975586,18.457031
+            54.975586,21.269531
+            56.733398,21.269531
+            56.733398,18.457031
+            54.975586,18.457031
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110022</name>
+    <name>10100022</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110022]]>
+        <![CDATA[10100022]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -129.243164,55.019531
-            -129.243164,59.062500
-            -125.419922,59.062500
-            -125.419922,55.019531
-            -129.243164,55.019531
+            54.975586,21.269531
+            54.975586,22.587891
+            56.733398,22.587891
+            56.733398,21.269531
+            54.975586,21.269531
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110023</name>
+    <name>10100023</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110023]]>
+        <![CDATA[10100023]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -129.243164,59.062500
-            -129.243164,59.999986
-            -125.419922,59.999986
-            -125.419922,59.062500
-            -129.243164,59.062500
+            56.733398,18.457031
+            56.733398,21.840820
+            58.095703,21.840820
+            58.095703,18.457031
+            56.733398,18.457031
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110024</name>
+    <name>10100024</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110024]]>
+        <![CDATA[10100024]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,47.988281
-            -125.419922,48.867188
-            -123.793945,48.867188
-            -123.793945,47.988281
-            -125.419922,47.988281
+            58.095703,18.457031
+            58.095703,21.840820
+            60.321829,21.840820
+            60.321829,18.457031
+            58.095703,18.457031
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110025</name>
+    <name>10100025</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110025]]>
+        <![CDATA[10100025]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.793945,47.988281
-            -123.793945,48.867188
-            -122.343750,48.867188
-            -122.343750,47.988281
-            -123.793945,47.988281
+            56.733398,21.840820
+            56.733398,22.587891
+            59.062500,22.587891
+            59.062500,21.840820
+            56.733398,21.840820
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110026</name>
+    <name>10100026</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110026]]>
+        <![CDATA[10100026]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,48.867188
-            -125.419922,49.438477
-            -123.178711,49.438477
-            -123.178711,48.867188
-            -125.419922,48.867188
+            59.062500,21.840820
+            59.062500,22.587891
+            60.321829,22.587891
+            60.321829,21.840820
+            59.062500,21.840820
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110027</name>
+    <name>10100027</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110027]]>
+        <![CDATA[10100027]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,49.438477
-            -125.419922,50.361328
-            -123.178711,50.361328
-            -123.178711,49.438477
-            -125.419922,49.438477
+            52.338867,16.435547
+            52.338867,16.875000
+            53.525391,16.875000
+            53.525391,16.435547
+            52.338867,16.435547
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110028</name>
+    <name>10100028</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110028]]>
+        <![CDATA[10100028]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.178711,48.867188
-            -123.178711,49.306641
-            -122.343750,49.306641
-            -122.343750,48.867188
-            -123.178711,48.867188
+            52.338867,16.875000
+            52.338867,18.457031
+            53.525391,18.457031
+            53.525391,16.875000
+            52.338867,16.875000
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110029</name>
+    <name>10100029</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110029]]>
+        <![CDATA[10100029]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.178711,49.306641
-            -123.178711,50.361328
-            -122.343750,50.361328
-            -122.343750,49.306641
-            -123.178711,49.306641
+            53.525391,16.435547
+            53.525391,17.226563
+            54.975586,17.226563
+            54.975586,16.435547
+            53.525391,16.435547
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110030</name>
+    <name>10100030</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110030]]>
+        <![CDATA[10100030]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,47.988281
-            -122.343750,49.438477
-            -121.245117,49.438477
-            -121.245117,47.988281
-            -122.343750,47.988281
+            53.525391,17.226563
+            53.525391,18.457031
+            54.975586,18.457031
+            54.975586,17.226563
+            53.525391,17.226563
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110031</name>
+    <name>10100031</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110031]]>
+        <![CDATA[10100031]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -121.245117,47.988281
-            -121.245117,49.438477
-            -119.882813,49.438477
-            -119.882813,47.988281
-            -121.245117,47.988281
+            52.338867,18.457031
+            52.338867,19.819336
+            53.261719,19.819336
+            53.261719,18.457031
+            52.338867,18.457031
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110032</name>
+    <name>10100032</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110032]]>
+        <![CDATA[10100032]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,49.438477
-            -122.343750,50.361328
-            -121.069336,50.361328
-            -121.069336,49.438477
-            -122.343750,49.438477
+            53.261719,18.457031
+            53.261719,19.819336
+            54.975586,19.819336
+            54.975586,18.457031
+            53.261719,18.457031
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110033</name>
+    <name>10100033</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110033]]>
+        <![CDATA[10100033]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -121.069336,49.438477
-            -121.069336,50.361328
-            -119.882813,50.361328
-            -119.882813,49.438477
-            -121.069336,49.438477
+            52.338867,19.819336
+            52.338867,21.401367
+            53.920898,21.401367
+            53.920898,19.819336
+            52.338867,19.819336
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110034</name>
+    <name>10100034</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110034]]>
+        <![CDATA[10100034]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -119.882813,47.988281
-            -119.882813,50.361328
-            -117.949219,50.361328
-            -117.949219,47.988281
-            -119.882813,47.988281
+            53.920898,19.819336
+            53.920898,21.401367
+            54.975586,21.401367
+            54.975586,19.819336
+            53.920898,19.819336
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110035</name>
+    <name>10100035</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110035]]>
+        <![CDATA[10100035]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -117.949219,47.988281
-            -117.949219,50.361328
-            -115.312500,50.361328
-            -115.312500,47.988281
-            -117.949219,47.988281
+            52.338867,21.401367
+            52.338867,22.587891
+            54.140625,22.587891
+            54.140625,21.401367
+            52.338867,21.401367
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110036</name>
+    <name>10100036</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110036]]>
+        <![CDATA[10100036]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -115.312500,47.988281
-            -115.312500,50.361328
-            -113.862305,50.361328
-            -113.862305,47.988281
-            -115.312500,47.988281
+            54.140625,21.401367
+            54.140625,22.587891
+            54.975586,22.587891
+            54.975586,21.401367
+            54.140625,21.401367
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110037</name>
+    <name>10100037</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110037]]>
+        <![CDATA[10100037]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -113.862305,47.988281
-            -113.862305,50.361328
-            -109.999988,50.361328
-            -109.999988,47.988281
-            -113.862305,47.988281
+            52.338867,22.587891
+            52.338867,23.291016
+            54.975586,23.291016
+            54.975586,22.587891
+            52.338867,22.587891
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110038</name>
+    <name>10100038</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110038]]>
+        <![CDATA[10100038]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,50.361328
-            -125.419922,52.294922
-            -122.343750,52.294922
-            -122.343750,50.361328
-            -125.419922,50.361328
+            52.338867,23.291016
+            52.338867,25.751953
+            54.975586,25.751953
+            54.975586,23.291016
+            52.338867,23.291016
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110039</name>
+    <name>10100039</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110039]]>
+        <![CDATA[10100039]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,52.294922
-            -125.419922,53.833008
-            -122.343750,53.833008
-            -122.343750,52.294922
-            -125.419922,52.294922
+            54.975586,22.587891
+            54.975586,23.642578
+            56.733398,23.642578
+            56.733398,22.587891
+            54.975586,22.587891
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110040</name>
+    <name>10100040</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110040]]>
+        <![CDATA[10100040]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,53.833008
-            -125.419922,55.063477
-            -123.354492,55.063477
-            -123.354492,53.833008
-            -125.419922,53.833008
+            54.975586,23.642578
+            54.975586,24.345703
+            55.766602,24.345703
+            55.766602,23.642578
+            54.975586,23.642578
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110041</name>
+    <name>10100041</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110041]]>
+        <![CDATA[10100041]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.354492,53.833008
-            -123.354492,55.063477
-            -122.343750,55.063477
-            -122.343750,53.833008
-            -123.354492,53.833008
+            55.766602,23.642578
+            55.766602,24.345703
+            56.250000,24.345703
+            56.250000,23.642578
+            55.766602,23.642578
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110042</name>
+    <name>10100042</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110042]]>
+        <![CDATA[10100042]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,55.063477
-            -125.419922,56.030273
-            -123.046875,56.030273
-            -123.046875,55.063477
-            -125.419922,55.063477
+            56.250000,23.642578
+            56.250000,23.994141
+            56.733398,23.994141
+            56.733398,23.642578
+            56.250000,23.642578
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110043</name>
+    <name>10100043</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110043]]>
+        <![CDATA[10100043]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.046875,55.063477
-            -123.046875,56.030273
-            -122.343750,56.030273
-            -122.343750,55.063477
-            -123.046875,55.063477
+            56.250000,23.994141
+            56.250000,24.345703
+            56.733398,24.345703
+            56.733398,23.994141
+            56.250000,23.994141
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110044</name>
+    <name>10100044</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110044]]>
+        <![CDATA[10100044]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,56.030273
-            -125.419922,57.568359
-            -123.442383,57.568359
-            -123.442383,56.030273
-            -125.419922,56.030273
+            54.975586,24.345703
+            54.975586,25.004883
+            56.074219,25.004883
+            56.074219,24.345703
+            54.975586,24.345703
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110045</name>
+    <name>10100045</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110045]]>
+        <![CDATA[10100045]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -123.442383,56.030273
-            -123.442383,57.568359
-            -122.343750,57.568359
-            -122.343750,56.030273
-            -123.442383,56.030273
+            54.975586,25.004883
+            54.975586,25.751953
+            56.074219,25.751953
+            56.074219,25.004883
+            54.975586,25.004883
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110046</name>
+    <name>10100046</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110046]]>
+        <![CDATA[10100046]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,57.568359
-            -125.419922,58.754883
-            -122.343750,58.754883
-            -122.343750,57.568359
-            -125.419922,57.568359
+            56.074219,24.345703
+            56.074219,24.829102
+            56.733398,24.829102
+            56.733398,24.345703
+            56.074219,24.345703
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110047</name>
+    <name>10100047</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110047]]>
+        <![CDATA[10100047]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -125.419922,58.754883
-            -125.419922,59.999986
-            -122.343750,59.999986
-            -122.343750,58.754883
-            -125.419922,58.754883
+            56.074219,24.829102
+            56.074219,25.751953
+            56.733398,25.751953
+            56.733398,24.829102
+            56.074219,24.829102
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110048</name>
+    <name>10100048</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110048]]>
+        <![CDATA[10100048]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,50.361328
-            -122.343750,52.294922
-            -120.322266,52.294922
-            -120.322266,50.361328
-            -122.343750,50.361328
+            59.106445,22.587891
+            59.106445,25.751953
+            60.336914,25.751953
+            60.336914,22.587891
+            59.106445,22.587891
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110049</name>
+    <name>10100049</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110049]]>
+        <![CDATA[10100049]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -120.322266,50.361328
-            -120.322266,52.294922
-            -117.114258,52.294922
-            -117.114258,50.361328
-            -120.322266,50.361328
+            56.733398,23.642578
+            56.733398,25.751953
+            59.106445,25.751953
+            59.106445,23.642578
+            56.733398,23.642578
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110050</name>
+    <name>10100050</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110050]]>
+        <![CDATA[10100050]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -117.114258,50.361328
-            -117.114258,52.294922
-            -114.125977,52.294922
-            -114.125977,50.361328
-            -117.114258,50.361328
+            56.733398,22.587891
+            56.733398,23.203125
+            57.128906,23.203125
+            57.128906,22.587891
+            56.733398,22.587891
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110051</name>
+    <name>10100051</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110051]]>
+        <![CDATA[10100051]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -114.125977,50.361328
-            -114.125977,52.294922
-            -109.999988,52.294922
-            -109.999988,50.361328
-            -114.125977,50.361328
+            57.128906,22.587891
+            57.128906,23.203125
+            57.524414,23.203125
+            57.524414,22.587891
+            57.128906,22.587891
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110052</name>
+    <name>10100052</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110052]]>
+        <![CDATA[10100052]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,52.294922
-            -122.343750,53.833008
-            -120.410156,53.833008
-            -120.410156,52.294922
-            -122.343750,52.294922
+            56.733398,23.203125
+            56.733398,23.642578
+            57.172852,23.642578
+            57.172852,23.203125
+            56.733398,23.203125
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110053</name>
+    <name>10100053</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110053]]>
+        <![CDATA[10100053]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -120.410156,52.294922
-            -120.410156,53.833008
-            -114.301758,53.833008
-            -114.301758,52.294922
-            -120.410156,52.294922
+            57.172852,23.203125
+            57.172852,23.642578
+            57.524414,23.642578
+            57.524414,23.203125
+            57.172852,23.203125
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110054</name>
+    <name>10100054</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110054]]>
+        <![CDATA[10100054]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -114.301758,52.294922
-            -114.301758,53.833008
-            -113.422852,53.833008
-            -113.422852,52.294922
-            -114.301758,52.294922
+            57.524414,22.587891
+            57.524414,23.159180
+            58.051758,23.159180
+            58.051758,22.587891
+            57.524414,22.587891
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110055</name>
+    <name>10100055</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110055]]>
+        <![CDATA[10100055]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -113.422852,52.294922
-            -113.422852,53.833008
-            -109.999988,53.833008
-            -109.999988,52.294922
-            -113.422852,52.294922
+            57.524414,23.159180
+            57.524414,23.642578
+            58.051758,23.642578
+            58.051758,23.159180
+            57.524414,23.159180
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110056</name>
+    <name>10100056</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110056]]>
+        <![CDATA[10100056]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -119.882813,53.833008
-            -119.882813,59.999986
-            -113.642578,59.999986
-            -113.642578,53.833008
-            -119.882813,53.833008
+            58.051758,22.587891
+            58.051758,23.071289
+            58.754883,23.071289
+            58.754883,22.587891
+            58.051758,22.587891
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110057</name>
+    <name>10100057</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110057]]>
+        <![CDATA[10100057]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -113.642578,53.833008
-            -113.642578,59.999986
-            -109.999988,59.999986
-            -109.999988,53.833008
-            -113.642578,53.833008
+            58.754883,22.587891
+            58.754883,23.071289
+            59.106445,23.071289
+            59.106445,22.587891
+            58.754883,22.587891
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110058</name>
+    <name>10100058</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110058]]>
+        <![CDATA[10100058]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,53.833008
-            -122.343750,54.360352
-            -121.201172,54.360352
-            -121.201172,53.833008
-            -122.343750,53.833008
+            58.051758,23.071289
+            58.051758,23.642578
+            58.447266,23.642578
+            58.447266,23.071289
+            58.051758,23.071289
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110059</name>
+    <name>10100059</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110059]]>
+        <![CDATA[10100059]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,54.360352
-            -122.343750,55.063477
-            -121.201172,55.063477
-            -121.201172,54.360352
-            -122.343750,54.360352
+            58.447266,23.071289
+            58.447266,23.642578
+            59.106445,23.642578
+            59.106445,23.071289
+            58.447266,23.071289
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110060</name>
+    <name>10100060</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110060]]>
+        <![CDATA[10100060]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -121.201172,53.833008
-            -121.201172,54.360352
-            -119.882813,54.360352
-            -119.882813,53.833008
-            -121.201172,53.833008
+            64.462366,36.870117
+            64.462366,37.617188
+            78.684983,37.617188
+            78.684983,36.870117
+            64.462366,36.870117
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110061</name>
+    <name>10100061</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110061]]>
+        <![CDATA[10100061]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -121.201172,54.360352
-            -121.201172,55.063477
-            -119.882813,55.063477
-            -119.882813,54.360352
-            -121.201172,54.360352
+            60.336914,34.189453
+            60.336914,36.870117
+            78.706055,36.870117
+            78.706055,34.189453
+            60.336914,34.189453
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110062</name>
+    <name>10100062</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110062]]>
+        <![CDATA[10100062]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,55.063477
-            -122.343750,55.458984
-            -121.069336,55.458984
-            -121.069336,55.063477
-            -122.343750,55.063477
+            60.336914,23.404784
+            60.336914,27.553711
+            71.459777,27.553711
+            71.459777,23.404784
+            60.336914,23.404784
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110063</name>
+    <name>10100063</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110063]]>
+        <![CDATA[10100063]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -122.343750,55.458984
-            -122.343750,56.030273
-            -121.069336,56.030273
-            -121.069336,55.458984
-            -122.343750,55.458984
+            60.336914,27.553711
+            60.336914,34.189453
+            73.037109,34.189453
+            73.037109,27.553711
+            60.336914,27.553711
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <name>10110064</name>
+    <name>10100064</name>
     <styleUrl>#transWhitePoly</styleUrl>
       <description>
-        <![CDATA[10110064]]>
+        <![CDATA[10100064]]>
       </description>
     <Polygon>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            -121.069336,55.063477
-            -121.069336,55.546875
-            -119.882813,55.546875
-            -119.882813,55.063477
-            -121.069336,55.063477
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
-  <Placemark>
-    <name>10110065</name>
-    <styleUrl>#transWhitePoly</styleUrl>
-      <description>
-        <![CDATA[10110065]]>
-      </description>
-    <Polygon>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-            -121.069336,55.546875
-            -121.069336,56.030273
-            -119.882813,56.030273
-            -119.882813,55.546875
-            -121.069336,55.546875
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
-  <Placemark>
-    <name>10110066</name>
-    <styleUrl>#transWhitePoly</styleUrl>
-      <description>
-        <![CDATA[10110066]]>
-      </description>
-    <Polygon>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-            -122.343750,56.030273
-            -122.343750,57.041016
-            -120.981445,57.041016
-            -120.981445,56.030273
-            -122.343750,56.030273
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
-  <Placemark>
-    <name>10110067</name>
-    <styleUrl>#transWhitePoly</styleUrl>
-      <description>
-        <![CDATA[10110067]]>
-      </description>
-    <Polygon>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-            -120.981445,56.030273
-            -120.981445,57.041016
-            -119.882813,57.041016
-            -119.882813,56.030273
-            -120.981445,56.030273
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
-  <Placemark>
-    <name>10110068</name>
-    <styleUrl>#transWhitePoly</styleUrl>
-      <description>
-        <![CDATA[10110068]]>
-      </description>
-    <Polygon>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-            -122.343750,57.041016
-            -122.343750,59.194336
-            -119.882813,59.194336
-            -119.882813,57.041016
-            -122.343750,57.041016
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
-  <Placemark>
-    <name>10110069</name>
-    <styleUrl>#transWhitePoly</styleUrl>
-      <description>
-        <![CDATA[10110069]]>
-      </description>
-    <Polygon>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-            -122.343750,59.194336
-            -122.343750,59.999986
-            -119.882813,59.999986
-            -119.882813,59.194336
-            -122.343750,59.194336
+            73.037109,27.589095
+            73.037109,34.189453
+            75.258451,34.189453
+            75.258451,27.589095
+            73.037109,27.589095
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
