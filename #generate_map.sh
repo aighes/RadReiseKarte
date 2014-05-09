@@ -71,6 +71,14 @@ if [ "$update" == "y" ]; then
 	rm ./data/planet_old.o5m
 	split=y
 fi
+if [ "$update" == "u" ]; then
+	echo `date +%T` updating planet >> log.log
+	echo `date +%T` updating planet
+	mv ./data/planet.o5m ./data/planet_old.o5m
+	osmupdate --verbose ./data/planet_old.o5m ./data/planet.o5m
+	rm ./data/planet_old.o5m
+	exit
+fi
 if [ "$split" != "y" ]; then
 	read -p "Split OSM-data? y/n : " split
 fi
@@ -86,7 +94,7 @@ fi
 echo "Map data (c) OpenStreetMap contributors, ODbL (http://opendatacommons.org/licenses/odbl/)" > ./resources/license-mkgmap.txt
 echo "Map created with mkgmap-r$version and data of $heute" >> resources/license-mkgmap.txt
 
-echo >mkgmap_error.log
+echo $version > mkgmap_error.log
 
 name=Germany
 famid=1000
@@ -155,6 +163,11 @@ GenerateMap
 
 name=India
 famid=1013
+codepage=1252
+GenerateMap
+
+name=Malaysia
+famid=1014
 codepage=1252
 GenerateMap
 

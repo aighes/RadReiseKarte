@@ -1,3 +1,3 @@
 #!/bin/bash
-osmconvert planet-latest.osm.pbf -o=planet.o5m
+osmconvert /media/Download/pyload/planet.osm/planet-latest.osm.pbf -o=planet.o5m
 
