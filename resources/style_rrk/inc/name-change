@@ -1,7 +1,11 @@
 name:en=* { set rrk:name='${name:en}' }
 int_name=* & rrk:name!=* { set rrk:name='${int_name}' }
 name:de=* & rrk:name!=* { set rrk:name='${name:de}' }
-( mkgmap:country=OMN | mkgmap:country=TJK | mkgmap:country=KGZ | mkgmap:country=RUS | mkgmap:country=CHN | mkgmap:country=TWN) & rrk:name=* { set name='${name} (${rrk:name})' }
-mkgmap:country=ISR & rrk:name=* { set name='${rrk:name}' }
+
+# einheimische und internationale Namen
+( mkgmap:country=OMN | mkgmap:country=TJK | mkgmap:country=KGZ | mkgmap:country=RUS | mkgmap:country=CHN | mkgmap:country=TWN ) & rrk:name=* { set name='${name} (${rrk:name})' }
+
+# nur internationale Namen
+( mkgmap:country=ISR | mkgmap:country=THA ) & rrk:name=* { set name='${rrk:name}' }
 rrk:name=* { delete rrk:name }
 
