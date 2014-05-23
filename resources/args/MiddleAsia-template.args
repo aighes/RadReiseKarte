@@ -1,0 +1,104 @@
+#
+# This file can be given to mkgmap using the -c option
+# Please edit it first to add a description of each map.
+#
+
+# You can set the family id for the map
+# family-id: 980
+# product-id: 1
+
+# Following is a list of map tiles.  Add a suitable description
+# for each one.
+
+mapname: 10060001
+# description: OSM Map
+input-file: 63240739.o5m
+
+mapname: 10060002
+# description: OSM Map
+input-file: 63240740.o5m
+
+mapname: 10060003
+# description: OSM Map
+input-file: 63240741.o5m
+
+mapname: 10060004
+# description: OSM Map
+input-file: 63240742.o5m
+
+mapname: 10060005
+# description: OSM Map
+input-file: 63240743.o5m
+
+mapname: 10060006
+# description: OSM Map
+input-file: 63240744.o5m
+
+mapname: 10060007
+# description: OSM Map
+input-file: 63240745.o5m
+
+mapname: 10060008
+# description: OSM Map
+input-file: 63240746.o5m
+
+mapname: 10060009
+# description: OSM Map
+input-file: 63240747.o5m
+
+mapname: 10060010
+# description: OSM Map
+input-file: 63240748.o5m
+
+mapname: 10060011
+# description: OSM Map
+input-file: 63240749.o5m
+
+mapname: 10060012
+# description: OSM Map
+input-file: 63240750.o5m
+
+mapname: 10060013
+# description: OSM Map
+input-file: 63241223.o5m
+
+mapname: 10060014
+# description: OSM Map
+input-file: 63241224.o5m
+
+mapname: 10060015
+# description: OSM Map
+input-file: 63241225.o5m
+
+mapname: 10060016
+# description: OSM Map
+input-file: 63241226.o5m
+
+mapname: 10060017
+# description: OSM Map
+input-file: 63241227.o5m
+
+mapname: 10060018
+# description: OSM Map
+input-file: 63241228.o5m
+
+mapname: 10060019
+# description: OSM Map
+input-file: 63241229.o5m
+
+mapname: 10060020
+# description: OSM Map
+input-file: 63241241.o5m
+
+mapname: 10060021
+# description: OSM Map
+input-file: 63241242.o5m
+
+mapname: 10060022
+# description: OSM Map
+input-file: 63241243.o5m
+
+mapname: 10060023
+# description: OSM Map
+input-file: 63241327.o5m
+

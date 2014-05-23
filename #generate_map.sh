@@ -1,8 +1,8 @@
 #!/bin/bash
 
 heute=`date +%Y%m%d`
-output=/media/Daten/RadReiseKarte
-windows=/media/Daten/Garmin
+output=/media/Garmin/Upload
+windows=/media/Garmin/RadReiseKarte/
 mkgmap=./bin/mkgmap.jar
 threads=4
 
@@ -15,8 +15,12 @@ GenerateMap()
 
 	echo $famid>>mkgmap_error.log
 
-	java -Xmx10000M -XX:+UseCompressedOops -jar $mkgmap --read-config=./resources/style_rrk/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --product-version=$heute --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name $famid*.o5m ./resources/rrk_typ.txt 2>> mkgmap_error.log
+	cp ./resources/args/$name"-template.args" ./$name"-template.args"
+
+	java -Xmx10000M -XX:+UseCompressedOops -jar $mkgmap --read-config=./resources/style_rrk/options --max-jobs=$threads --code-page=$codepage --mapname=$famid"0001" --overview-mapname=$famid"0000" --family-name="RRK $name" --series-name="RRK $name $heute" --product-version=$heute --description="RadReiseKarte $heute" --family-id=$famid --output-dir=./maps/$name -c ./$name"-template.args" ./resources/rrk_typ.txt 2>> mkgmap_error.log
 	
+	rm ./$name"-template.args"
+
 	echo `date +%T` compressing $name >> log.log
 	echo `date +%T` compressing $name
 
@@ -71,14 +75,7 @@ if [ "$update" == "y" ]; then
 	rm ./data/planet_old.o5m
 	split=y
 fi
-if [ "$update" == "u" ]; then
-	echo `date +%T` updating planet >> log.log
-	echo `date +%T` updating planet
-	mv ./data/planet.o5m ./data/planet_old.o5m
-	osmupdate --verbose ./data/planet_old.o5m ./data/planet.o5m
-	rm ./data/planet_old.o5m
-	exit
-fi
+
 if [ "$split" != "y" ]; then
 	read -p "Split OSM-data? y/n : " split
 fi
@@ -170,6 +167,10 @@ name=Malaysia
 famid=1014
 codepage=1252
 GenerateMap
+
+name=Iberia
+famid=1015
+codepage=1252
 
 echo `date +%T` finished >> log.log
 echo `date +%T` finished

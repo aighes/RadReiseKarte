@@ -1,0 +1,400 @@
+#
+# This file can be given to mkgmap using the -c option
+# Please edit it first to add a description of each map.
+#
+
+# You can set the family id for the map
+# family-id: 980
+# product-id: 1
+
+# Following is a list of map tiles.  Add a suitable description
+# for each one.
+
+mapname: 10090001
+# description: OSM Map
+input-file: 63240526.o5m
+
+mapname: 10090002
+# description: OSM Map
+input-file: 63240527.o5m
+
+mapname: 10090003
+# description: OSM Map
+input-file: 63240528.o5m
+
+mapname: 10090004
+# description: OSM Map
+input-file: 63240529.o5m
+
+mapname: 10090005
+# description: OSM Map
+input-file: 63240530.o5m
+
+mapname: 10090006
+# description: OSM Map
+input-file: 63240531.o5m
+
+mapname: 10090007
+# description: OSM Map
+input-file: 63240532.o5m
+
+mapname: 10090008
+# description: OSM Map
+input-file: 63240533.o5m
+
+mapname: 10090009
+# description: OSM Map
+input-file: 63240534.o5m
+
+mapname: 10090010
+# description: OSM Map
+input-file: 63240535.o5m
+
+mapname: 10090011
+# description: OSM Map
+input-file: 63240536.o5m
+
+mapname: 10090012
+# description: OSM Map
+input-file: 63240537.o5m
+
+mapname: 10090013
+# description: OSM Map
+input-file: 63240538.o5m
+
+mapname: 10090014
+# description: OSM Map
+input-file: 63240539.o5m
+
+mapname: 10090015
+# description: OSM Map
+input-file: 63240540.o5m
+
+mapname: 10090016
+# description: OSM Map
+input-file: 63240541.o5m
+
+mapname: 10090017
+# description: OSM Map
+input-file: 63240542.o5m
+
+mapname: 10090018
+# description: OSM Map
+input-file: 63240543.o5m
+
+mapname: 10090019
+# description: OSM Map
+input-file: 63240544.o5m
+
+mapname: 10090020
+# description: OSM Map
+input-file: 63240545.o5m
+
+mapname: 10090021
+# description: OSM Map
+input-file: 63240546.o5m
+
+mapname: 10090022
+# description: OSM Map
+input-file: 63240547.o5m
+
+mapname: 10090023
+# description: OSM Map
+input-file: 63240548.o5m
+
+mapname: 10090024
+# description: OSM Map
+input-file: 63240549.o5m
+
+mapname: 10090025
+# description: OSM Map
+input-file: 63240550.o5m
+
+mapname: 10090026
+# description: OSM Map
+input-file: 63240551.o5m
+
+mapname: 10090027
+# description: OSM Map
+input-file: 63240552.o5m
+
+mapname: 10090028
+# description: OSM Map
+input-file: 63240553.o5m
+
+mapname: 10090029
+# description: OSM Map
+input-file: 63240554.o5m
+
+mapname: 10090030
+# description: OSM Map
+input-file: 63240555.o5m
+
+mapname: 10090031
+# description: OSM Map
+input-file: 63240556.o5m
+
+mapname: 10090032
+# description: OSM Map
+input-file: 63240557.o5m
+
+mapname: 10090033
+# description: OSM Map
+input-file: 63240558.o5m
+
+mapname: 10090034
+# description: OSM Map
+input-file: 63240559.o5m
+
+mapname: 10090035
+# description: OSM Map
+input-file: 63240560.o5m
+
+mapname: 10090036
+# description: OSM Map
+input-file: 63240561.o5m
+
+mapname: 10090037
+# description: OSM Map
+input-file: 63240562.o5m
+
+mapname: 10090038
+# description: OSM Map
+input-file: 63240563.o5m
+
+mapname: 10090039
+# description: OSM Map
+input-file: 63240564.o5m
+
+mapname: 10090040
+# description: OSM Map
+input-file: 63240565.o5m
+
+mapname: 10090041
+# description: OSM Map
+input-file: 63240566.o5m
+
+mapname: 10090042
+# description: OSM Map
+input-file: 63240567.o5m
+
+mapname: 10090043
+# description: OSM Map
+input-file: 63240568.o5m
+
+mapname: 10090044
+# description: OSM Map
+input-file: 63240569.o5m
+
+mapname: 10090045
+# description: OSM Map
+input-file: 63240570.o5m
+
+mapname: 10090046
+# description: OSM Map
+input-file: 63240571.o5m
+
+mapname: 10090047
+# description: OSM Map
+input-file: 63240572.o5m
+
+mapname: 10090048
+# description: OSM Map
+input-file: 63240573.o5m
+
+mapname: 10090049
+# description: OSM Map
+input-file: 63240574.o5m
+
+mapname: 10090050
+# description: OSM Map
+input-file: 63240575.o5m
+
+mapname: 10090051
+# description: OSM Map
+input-file: 63240576.o5m
+
+mapname: 10090052
+# description: OSM Map
+input-file: 63240577.o5m
+
+mapname: 10090053
+# description: OSM Map
+input-file: 63240578.o5m
+
+mapname: 10090054
+# description: OSM Map
+input-file: 63240579.o5m
+
+mapname: 10090055
+# description: OSM Map
+input-file: 63240580.o5m
+
+mapname: 10090056
+# description: OSM Map
+input-file: 63240581.o5m
+
+mapname: 10090057
+# description: OSM Map
+input-file: 63240582.o5m
+
+mapname: 10090058
+# description: OSM Map
+input-file: 63240583.o5m
+
+mapname: 10090059
+# description: OSM Map
+input-file: 63240584.o5m
+
+mapname: 10090060
+# description: OSM Map
+input-file: 63240585.o5m
+
+mapname: 10090061
+# description: OSM Map
+input-file: 63240586.o5m
+
+mapname: 10090062
+# description: OSM Map
+input-file: 63240587.o5m
+
+mapname: 10090063
+# description: OSM Map
+input-file: 63240588.o5m
+
+mapname: 10090064
+# description: OSM Map
+input-file: 63240589.o5m
+
+mapname: 10090065
+# description: OSM Map
+input-file: 63240590.o5m
+
+mapname: 10090066
+# description: OSM Map
+input-file: 63240591.o5m
+
+mapname: 10090067
+# description: OSM Map
+input-file: 63240592.o5m
+
+mapname: 10090068
+# description: OSM Map
+input-file: 63240593.o5m
+
+mapname: 10090069
+# description: OSM Map
+input-file: 63240594.o5m
+
+mapname: 10090070
+# description: OSM Map
+input-file: 63240595.o5m
+
+mapname: 10090071
+# description: OSM Map
+input-file: 63240596.o5m
+
+mapname: 10090072
+# description: OSM Map
+input-file: 63240597.o5m
+
+mapname: 10090073
+# description: OSM Map
+input-file: 63240598.o5m
+
+mapname: 10090074
+# description: OSM Map
+input-file: 63240599.o5m
+
+mapname: 10090075
+# description: OSM Map
+input-file: 63240600.o5m
+
+mapname: 10090076
+# description: OSM Map
+input-file: 63240601.o5m
+
+mapname: 10090077
+# description: OSM Map
+input-file: 63240602.o5m
+
+mapname: 10090078
+# description: OSM Map
+input-file: 63240603.o5m
+
+mapname: 10090079
+# description: OSM Map
+input-file: 63240604.o5m
+
+mapname: 10090080
+# description: OSM Map
+input-file: 63240605.o5m
+
+mapname: 10090081
+# description: OSM Map
+input-file: 63240606.o5m
+
+mapname: 10090082
+# description: OSM Map
+input-file: 63240607.o5m
+
+mapname: 10090083
+# description: OSM Map
+input-file: 63240608.o5m
+
+mapname: 10090084
+# description: OSM Map
+input-file: 63240609.o5m
+
+mapname: 10090085
+# description: OSM Map
+input-file: 63240610.o5m
+
+mapname: 10090086
+# description: OSM Map
+input-file: 63240611.o5m
+
+mapname: 10090087
+# description: OSM Map
+input-file: 63240612.o5m
+
+mapname: 10090088
+# description: OSM Map
+input-file: 63240613.o5m
+
+mapname: 10090089
+# description: OSM Map
+input-file: 63240614.o5m
+
+mapname: 10090090
+# description: OSM Map
+input-file: 63240615.o5m
+
+mapname: 10090091
+# description: OSM Map
+input-file: 63240616.o5m
+
+mapname: 10090092
+# description: OSM Map
+input-file: 63240617.o5m
+
+mapname: 10090093
+# description: OSM Map
+input-file: 63240618.o5m
+
+mapname: 10090094
+# description: OSM Map
+input-file: 63240619.o5m
+
+mapname: 10090095
+# description: OSM Map
+input-file: 63240620.o5m
+
+mapname: 10090096
+# description: OSM Map
+input-file: 63240621.o5m
+
+mapname: 10090097
+# description: OSM Map
+input-file: 63240622.o5m
+
